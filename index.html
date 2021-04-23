@@ -1,16 +1,39 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <title>WDD 230 | Course Portal Home Page</title>
-  <img src = "profile_picture.jpg" alt="profile image">
-  <h1>Andrew Funk</h1>
-</head>
-<body>
- <h2>WDD 230: Assignment Portal</h2>
- <ul>
-   <li>Lesson 02: Assignment Link</li>
-   <li>Lesson 03: Assignment Link</li>
-   <li>Lesson 04: Assignment Link</li>
- </ul>
-</body>
-</html>  
+  <head>
+    <title>WDD 230 | Course Portal Home Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="format">
+      <header>
+        <img
+          src="images/profile.png" alt="profile image"
+        />
+        <h1>Andrew Funk</h1>
+      </header>
+      <main>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr />
+        <ul>
+          <li>Lesson 02: <a href="#">Assignment Link</a></li>
+          <li>Lesson 03: <a href="#">Assignment Link</a></li>
+          <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+        </ul>
+      </main>
+      <footer>
+        <p>
+          &copy; <span id="currentyear">2021</span> | Andrew Funk | Utah |
+          <a href=" https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+        <div id="lastupdated">
+          Last Updated: <span id="lastModified"></span>
+        </div>
+      </footer>
+      <script src="js/currentdate.js"></script>
+    </div>
+  </body>
+</html>
