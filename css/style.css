@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Patua+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -39,6 +39,10 @@ footer {
   padding: 25px;
   color: #FFFFFF;
   max-width: 960px;
+}
+
+#lastupdated {
+    color:yellow;
 }
 
 footer a {
