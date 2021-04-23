@@ -42,15 +42,11 @@ footer {
 }
 
 #lastupdated {
-    color:yellow;
+    color: yellow;
 }
 
 footer a {
-  color: #FFFFFF;
-}
-
-#updated {
-  color: yellow;
+  color: lightgray;
 }
 
 hr {
