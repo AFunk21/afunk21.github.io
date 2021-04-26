@@ -14,9 +14,7 @@ font-family: 'Suez One', serif;
 font-family: 'Suez One', serif;
 */
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
+
 
 #format {
   margin: 0 auto;
@@ -43,6 +41,7 @@ header img {
 
 main {
     margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
   }
 
 footer {
@@ -53,6 +52,7 @@ footer {
   background-color: #0062b8;
   padding: 25px;
   color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 
 #lastupdated {
