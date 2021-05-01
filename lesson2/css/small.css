@@ -38,7 +38,6 @@ h2{
 }
 
 main {
-    margin-left: 15px;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -90,4 +89,8 @@ footer a {
 a {
     text-decoration: none;
     color: #0057b8;
+}
+
+p {
+    height: 200px;
 }
