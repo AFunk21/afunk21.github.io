@@ -1,3 +1,12 @@
 @media only screen and (min-width: 80em) {
     
+    header {
+        border-radius: 15px;
+      }
+
+    footer {
+        border-radius: 15px;
+    }
+
+
 }
