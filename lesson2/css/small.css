@@ -79,3 +79,7 @@ footer a {
 .column3 {
     grid-column: 1;
 }
+
+a {
+    text-decoration: none;
+}
