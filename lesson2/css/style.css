@@ -15,7 +15,6 @@ font-family: 'Days One', sans-serif;
 */
 
 
-
 #format {
   margin: 0 auto;
   max-width: 960px;
@@ -58,8 +57,4 @@ footer {
 
 footer a {
   color: #FFFFFF;
-}
-
-hr {
-  margin-top: -15px;
 }
