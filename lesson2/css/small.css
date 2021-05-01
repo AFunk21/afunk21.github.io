@@ -59,3 +59,12 @@ footer {
 footer a {
   color: #FFFFFF;
 }
+
+/* Lesson 2 Grid */
+
+.lesson2_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
