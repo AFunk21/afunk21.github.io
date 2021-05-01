@@ -58,6 +58,7 @@ footer {
 
 #lastupdated {
     color: yellow;
+    height: none;
 }
 
 footer a {
@@ -92,6 +93,6 @@ a {
     color: #0057b8;
 }
 
-p {
+div p {
     height: 140px;
 }
