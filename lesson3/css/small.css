@@ -108,6 +108,7 @@ footer a {
     grid-column: 1;
     text-align: center;
     color: #396E94;
+    margin: 15px;
 }
 
 #color1 {
