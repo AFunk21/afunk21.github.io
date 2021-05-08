@@ -37,6 +37,7 @@ nav {
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+    font-family: 'Roboto', sans-serif;
 }
 nav ul {
     display: flex; 
