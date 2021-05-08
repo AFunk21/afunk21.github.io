@@ -70,7 +70,7 @@ h2 {
 main {
     margin: 0 10px 0 10px;
     font-family: 'Roboto', sans-serif;
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 300px);
   }
 
 img {
