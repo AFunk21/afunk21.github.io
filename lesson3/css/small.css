@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav {
-	background-color: #0062b8;
+	background-color: #396E94;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
     font-family: 'Roboto', sans-serif;
@@ -81,7 +81,7 @@ footer {
   margin-top: 20px;
   text-align: center;
   clear: both;
-  background-color: #0062b8;
+  background-color: #396E94;
   padding: 25px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
@@ -107,6 +107,7 @@ footer a {
 .page-head {
     grid-column: 1;
     text-align: center;
+    color: #396E94;
 }
 
 #color1 {
