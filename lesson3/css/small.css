@@ -70,6 +70,7 @@ h2 {
 main {
     margin: 0 10px 0 10px;
     font-family: 'Roboto', sans-serif;
+    min-height: calc(100vh - 139.59px - 118px);
   }
 
 img {
@@ -84,8 +85,6 @@ footer {
   padding: 25px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
-  position: absolute;
-  bottom: 0;
 }
 
 #lastupdated {
