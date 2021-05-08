@@ -6,17 +6,10 @@
     .page-head {
         grid-column: 1/4;
     }
-
-    header {
-        border-radius: 15px 15px 0 0;
-    }
     
     #color3 {
         grid-column: 3;
         grid-row: 2;
     }
 
-    footer {
-        border-radius: 0 0 15px 15px;
-    }
 }
