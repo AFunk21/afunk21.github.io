@@ -107,12 +107,12 @@ footer a {
 
 .column1 {
     grid-column: 1;
-    width: 300px;
+    width: auto;
 }
 
 .column2 {
     grid-column: 1;
-    width: 300px;
+    width: auto;
 }
 
 .column3 {
