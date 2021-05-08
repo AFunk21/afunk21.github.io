@@ -3,6 +3,9 @@
         width: 100% auto;
       }
 
+    nav ul {
+        display: flex;
+    }
     nav ul li { 
         flex: 1 1 100%; 
     }

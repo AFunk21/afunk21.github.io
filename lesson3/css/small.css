@@ -36,7 +36,6 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 nav ul {
-    display: flex; 
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
