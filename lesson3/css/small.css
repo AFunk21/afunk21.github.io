@@ -21,7 +21,7 @@ font-family: 'Days One', sans-serif;
 }
 
 header {
-  background-color: #0062b8;
+  background-color: #36454f;
   padding: 20px;
   color: white;
   text-align: center;
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #0062b8;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
     font-family: 'Roboto', sans-serif;
