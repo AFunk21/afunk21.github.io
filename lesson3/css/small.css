@@ -29,6 +29,14 @@ header {
   font-family: 'Days One', sans-serif;
 }
 
+nav ul { 
+    display: flex; 
+}
+
+nav ul li { 
+    flex: 1 1 100%; 
+}
+
 h1 {
     font-size: 1.5em;
 }
