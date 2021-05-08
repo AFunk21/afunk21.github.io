@@ -3,6 +3,10 @@
         width: 100% auto;
       }
 
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
     footer {
         width: 100% auto;
     }

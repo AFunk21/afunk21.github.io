@@ -29,10 +29,6 @@ header {
   font-family: 'Days One', sans-serif;
 }
 
-nav ul li { 
-    flex: 1 1 100%; 
-}
-
 nav {
 	background-color: #396E94;
 	text-align: center;
