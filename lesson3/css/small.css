@@ -98,10 +98,15 @@ footer a {
 
 /* Lesson 2 Grid */
 
-.lesson2_grid {
+.lesson3_grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+}
+
+#color-scheme {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .column1 {
