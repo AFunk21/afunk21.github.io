@@ -64,6 +64,13 @@ h2 {
     color: #396E94;
 }
 
+#color1 h2 {
+    color: white;
+}
+#color2 h2 {
+    color: white;
+}
+
 main {
     margin: 0 10px 0 10px;
     font-family: 'Roboto', sans-serif;
