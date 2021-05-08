@@ -61,6 +61,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    color: #396E94;
 }
 
 main {
@@ -103,7 +104,6 @@ footer a {
 .page-head {
     grid-column: 1;
     text-align: center;
-    color: #396E94;
     margin: 15px 0 15px 0;
     padding: 0 15px 0 15px;
 }
