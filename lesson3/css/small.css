@@ -124,6 +124,7 @@ footer a {
     color: white;
     text-align: center;
     padding: 5px;
+    border-radius: 15px;
 }
 
 #color2 {
@@ -133,6 +134,7 @@ footer a {
     color: white;
     text-align: center;
     padding: 5px;
+    border-radius: 15px;
 }
 
 #color3 {
@@ -141,6 +143,7 @@ footer a {
     background-color: #D6D6D6;
     text-align: center;
     padding: 5px;
+    border-radius: 15px;
 }
 
 a {
