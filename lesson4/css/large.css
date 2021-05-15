@@ -12,23 +12,4 @@
         grid-row: 2;
     }
 
-    .head-grid {
-        display: grid;
-        grid-template-columns: 225px 1fr;
-    }
-    .head-grid img {
-        grid-column: 1;
-        border: 5px solid white;
-    }
-
-    header img {
-        width: auto;
-        height: 150px;
-    }
-
-    .header-text {
-        text-align: left;
-
-    }
-
 }

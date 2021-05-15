@@ -29,6 +29,25 @@ header {
   font-family: 'Days One', sans-serif;
 }
 
+.head-grid {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+}
+.head-grid img {
+    grid-column: 1;
+    border: 5px solid white;
+}
+
+header img {
+    width: auto;
+    height: 150px;
+}
+
+.header-text {
+    text-align: left;
+
+}
+
 nav {
 	background-color: #396E94;
 	text-align: center;
@@ -53,6 +72,30 @@ nav a:hover {
 	background-color: #bbb;
 	color: #36454f;
 }
+
+
+
+nav li:first-child {
+	display: block;
+}
+nav li {
+	display: none;
+}
+
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+
+
+
+
 
 h1 {
     font-size: 1.5em;
@@ -82,17 +125,20 @@ main {
 
 #heroimage {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-height: 250px;
 }
 
 #summary {
     float: left;
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: auto;
     background-color: #396E94;
     padding: 0 10px 0 10px;
     color: white;
-    float: left;
+    grid-column: 1;
 }
 
 img {

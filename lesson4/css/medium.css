@@ -10,6 +10,17 @@
         flex: 1 1 100%; 
     }
 
+ 
+	nav li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+
+	nav li:first-child {
+		display: none;
+	}
+    
+
     footer {
         width: 100% auto;
     }
@@ -43,6 +54,8 @@
         grid-column: 1;
         grid-row: 3;
     }
+
+
 
 }
 
