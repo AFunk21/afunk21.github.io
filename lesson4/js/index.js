@@ -1,5 +1,9 @@
-document.querySelector('#year').textContent = new Date().getFullYear();
-document.querySelector('#lastmod').textContent = document.lastModified;
+
+const datefield = document.querySelector(".date");
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
+datefield.innerHTML = `${fulldate}`;
+
 
 
 const hambutton = document.querySelector(".ham");
