@@ -82,19 +82,12 @@ nav li {
 	display: none;
 }
 
-
-
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
   */
 .responsive li {
 	display: block;
 }
-
-/* Media Query for medium + screens */
-
-
-
 
 
 h1 {
@@ -110,9 +103,14 @@ h3 {
     color: #396E94;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 #color1 h2 {
     color: white;
 }
+
 #color2 h2 {
     color: white;
 }
@@ -123,23 +121,29 @@ main {
     min-height: calc(100vh - 274px);
   }
 
-#heroimage {
-    width: 100%;
+#hero-section {
     display: grid;
     grid-template-columns: 1fr;
     max-height: 250px;
 }
 
-#summary {
-    float: left;
-    position: absolute;
-    height: auto;
-    width: auto;
-    background-color: #396E94;
-    padding: 0 10px 0 10px;
-    color: white;
-    grid-column: 1;
+#heroimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 100%;
 }
+
+#summary {
+    display: none;
+}
+
+#fulltext {
+    display: block;
+}
+
 
 img {
       align-items: center;
@@ -216,4 +220,15 @@ a {
     height: 140px;
 }
 
+.bottom-info {
+    width: 100%;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
 
+.map {
+    width: 100%;
+    max-height: 250px;
+}
