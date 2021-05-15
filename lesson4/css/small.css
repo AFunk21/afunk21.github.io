@@ -226,6 +226,10 @@ a {
     height: 250px;
 }
 
+#article-text {
+    padding: 10px;
+}
+
 .bottom-info {
     width: 100%;
     background-color: #36454F;
