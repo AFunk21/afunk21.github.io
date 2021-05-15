@@ -91,11 +91,11 @@ nav li {
 
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: #396E94;
     display: block;
 }
@@ -123,9 +123,7 @@ main {
   }
 
 #hero-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-height: 250px;
+    display: block;
 }
 
 #heroimage {
@@ -238,21 +236,21 @@ a {
 }
 
 #map {
-    width: 365px;
+    width: 355px;
     height: 250px;
 }
 
 .forcast-header {
     display: block;
-    border: 5px solid black;
+    border: 5px solid lightgray;
     padding: 10px;
     color: white;
     background-color: #396E94;
 }
 
 .article-box {
-    border: 5px solid black;
-    margin-top: -25px;
+    border: 5px solid lightgray;
+    margin-top: -20px;
 }
 
 .forcast-box {
@@ -272,6 +270,7 @@ a {
 }
 
 .location-img {
+
     grid-column: 1;
     grid-row: 2;
 }
