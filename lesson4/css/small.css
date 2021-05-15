@@ -97,6 +97,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     color: #396E94;
+    display: block;
 }
 
 h3 {
@@ -220,15 +221,83 @@ a {
     height: 140px;
 }
 
+#articleimage {
+    width: 100%;
+    height: 250px;
+}
+
 .bottom-info {
     width: 100%;
-    background-color: lightgray;
+    background-color: #36454F;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
 }
 
-.map {
-    width: 100%;
-    max-height: 250px;
+#map {
+    width: 365px;
+    height: 250px;
+}
+
+.forcast-header {
+    display: block;
+    border: 5px solid black;
+    padding: 10px;
+    color: white;
+    background-color: #396E94;
+}
+
+.article-box {
+    border: 5px solid black;
+}
+
+.forcast-box {
+    background-color: #396E94;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 25px 0 25px 25px;
+    justify-content: center; 
+    display: none;
+}
+
+#day1 {
+    display: none;
+}
+#day2 {
+    display: none;
+}
+#day3 {
+    display: none;
+}
+#day4 {
+    display: none;
+}
+#day5 {
+    display: none;
+}
+
+.contact-info h3 {
+    color: white;
+
+}
+
+.bottom-info {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+}
+
+.location-img {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.contact-info {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.icons {
+    display: none;
 }
