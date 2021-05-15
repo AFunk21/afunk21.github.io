@@ -252,30 +252,10 @@ a {
 
 .article-box {
     border: 5px solid black;
+    margin-top: -25px;
 }
 
 .forcast-box {
-    background-color: #396E94;    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 25px 0 25px 25px;
-    justify-content: center; 
-    display: none;
-}
-
-#day1 {
-    display: none;
-}
-#day2 {
-    display: none;
-}
-#day3 {
-    display: none;
-}
-#day4 {
-    display: none;
-}
-#day5 {
     display: none;
 }
 
