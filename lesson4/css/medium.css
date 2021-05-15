@@ -1,6 +1,6 @@
 @media only screen and (min-width: 37.5em) {
     header {
-        width: 100% auto;
+        width: auto;
       }
 
     nav ul {
@@ -22,7 +22,7 @@
 
 
     footer {
-        width: 100% auto;
+        width: auto;
     }
 
     h1 {
@@ -83,7 +83,7 @@
     }
 
     .article-box {
-        border: none
+        border: none;
     }
 
     .forcast-box {
