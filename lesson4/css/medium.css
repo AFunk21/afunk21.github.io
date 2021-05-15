@@ -122,7 +122,7 @@
 
     .article-box {
         display: block;
-        width: 100% auto;
+        width: auto;
         background-color: lightgray;
         padding: 25px;
         display: grid;
