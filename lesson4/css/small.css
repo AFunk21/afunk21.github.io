@@ -80,6 +80,21 @@ main {
     min-height: calc(100vh - 274px);
   }
 
+#heroimage {
+    width: 100%;
+}
+
+#summary {
+    float: left;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: #396E94;
+    padding: 0 10px 0 10px;
+    color: white;
+    float: left;
+}
+
 img {
       align-items: center;
   }
@@ -154,3 +169,5 @@ a {
 .paragraph_height {
     height: 140px;
 }
+
+
