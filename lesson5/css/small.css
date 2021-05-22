@@ -131,7 +131,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    height: 200px;
+
     width: 100%;
 }
 
@@ -215,8 +215,8 @@ a {
 }
 
 #articleimage {
-    width: 100%;
-    height: 250px;
+    width: 250px;
+    
 }
 
 #article-text {
@@ -237,16 +237,23 @@ a {
 }
 
 .forcast-header {
-    display: block;
+ 
     border: 5px solid lightgray;
     padding: 10px;
     color: white;
     background-color: #396E94;
 }
 
+.forcast-section {
+    display: block;
+    background-color: lightgray;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
 .article-box {
     border: 5px solid lightgray;
-    margin-top: -20px;
+
 }
 
 .forcast-box {
@@ -263,6 +270,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 10px;
+    display: block;
 }
 
 .location-img {
@@ -278,4 +286,5 @@ a {
 
 .icons {
     display: none;
+
 }
