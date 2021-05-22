@@ -2,7 +2,6 @@ const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 
-
 button.addEventListener("click", function() {
     
     let Item = input.value;
@@ -19,7 +18,6 @@ button.addEventListener("click", function() {
     listItem.appendChild(buttonList);
     list.appendChild(listItem);
 
-    buttonList.addEventListener('click', function(e) {list.removeChild(listItem);});
-
+    buttonList.addEventListener('click', function(c) {list.removeChild(listItem);});
     input.focus();
 });
