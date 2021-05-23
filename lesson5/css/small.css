@@ -48,6 +48,18 @@ header img {
 
 }
 
+aside {
+    display: none;
+}
+
+aside p {
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0 20px 0;
+    color: #36454f;
+    background-color: orange;
+}
+
 nav {
 	background-color: #396E94;
 	text-align: center;

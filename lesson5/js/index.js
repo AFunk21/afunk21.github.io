@@ -5,7 +5,6 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.innerHTML = `${fulldate}`;
 
 
-
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
 

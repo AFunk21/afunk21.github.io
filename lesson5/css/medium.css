@@ -3,6 +3,7 @@
         width: auto;
       }
 
+
     nav ul {
         display: flex;
     }
@@ -23,7 +24,6 @@
     nav .current-page {
         background-color: lightgray;
         color: #396E94;
-
     }
 
 
