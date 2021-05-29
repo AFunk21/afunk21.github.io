@@ -1,0 +1,21 @@
+@media (min-width: 64em) {
+    .lesson3_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .page-head {
+        grid-column: 1/4;
+    }
+    
+    #color3 {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .icons {
+        display: inline;
+        height: 50px;
+        width: 50px;
+
+    }
+}

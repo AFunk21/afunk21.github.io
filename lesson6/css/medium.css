@@ -1,0 +1,176 @@
+@media only screen and (min-width: 51.25em) {
+    header {
+        width: auto;
+      }
+
+
+    nav ul {
+        display: flex;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
+ 
+	nav li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+
+	nav li:first-child {
+		display: none;
+	}
+
+    nav .current-page {
+        background-color: lightgray;
+        color: #396E94;
+    }
+
+
+    footer {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    .lesson3_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .page-head {
+        grid-column: 1/3;
+    }
+    
+    #color1 {
+        grid-row: 2;
+    }
+    
+    #color2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    #color3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr ;
+        max-height: 250px;
+    }
+
+    #summary-block {
+        background-color: #396E94;
+        padding: 0 10px 0 10px;
+        color: white;
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    #summary {
+        display: block;
+    }
+    
+    #fulltext {
+        display: none;
+    }
+
+    .forcast-header {
+        background-color: white;
+        color: #396E94;  
+        border: none;
+    }
+
+    .article-box {
+        border: none;
+    }
+
+    .forcast-box {  
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .forcast-section {
+        padding: 75px 0 0 0;
+        text-align: left;
+        background-color: white;
+    }
+
+    .days {
+        display: inline;
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+        width: 150px;
+        height: 125px;
+        background-color: #396E94;
+    }
+    
+    .article-section {
+        padding-top: 75px;
+    }
+
+    .article-box {
+        display: block;
+        width: auto;
+        background-color: lightgray;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 0px;
+
+    }
+
+    #articleimage {
+        float: right;
+        padding-left: 15px;
+        grid-column: 3;
+        grid-row: 1/3;
+        width: 265px;
+    }
+
+    #article-text {
+        grid-column: 1/3;
+    }
+
+    .bottom-info {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 100px 1fr;
+        padding: 50px;
+    }
+
+    .location-img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .contact-info {
+        text-align: left;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .forcast-box {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }    
+   
+
+
+}
+
+
