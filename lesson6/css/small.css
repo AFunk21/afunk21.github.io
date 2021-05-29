@@ -116,6 +116,10 @@ h3 {
     color: #396E94;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -139,7 +143,7 @@ main {
 }
 
 #heroimage {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -148,7 +152,13 @@ main {
 }
 
 #summary {
-    display: none;
+    display: block;
+    
+}
+
+.summary-format {
+    line-height: 0.180rem;
+    text-decoration: none;
 }
 
 #fulltext {
@@ -226,13 +236,30 @@ a {
     height: 140px;
 }
 
+.article-section {
+    padding-top: 15px;
+}
+
 #articleimage {
     width: 250px;
-    
 }
 
 #article-text {
     padding: 10px;
+}
+
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#summary-block {
+    background-color: #396E94;
+    color: white;
+    display: block;
+    padding-top: -10px;
+    text-align: center;
 }
 
 .bottom-info {
@@ -257,9 +284,6 @@ a {
 }
 
 .forcast-section {
-    display: block;
-    background-color: lightgray;
-    padding: 15px 0 15px 0;
     text-align: center;
 }
 
@@ -269,7 +293,9 @@ a {
 }
 
 .forcast-box {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: end;
 }
 
 .contact-info h3 {
@@ -298,5 +324,49 @@ a {
 
 .icons {
     display: none;
+}
 
+.days1 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #396E94;
+    grid-column: 1;
+    font-size: 15px;
+}
+
+.days2 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #396E94;
+    grid-column: 2;
+    font-size: 15px;
+}
+
+.days3 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #396E94;
+    grid-column: 3;
+    font-size: 15px;
+}
+
+.days4 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #396E94;
+    grid-column: 4;
+    font-size: 15px;
+}
+
+.days5 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #396E94;
+    grid-column: 5;
+    font-size: 15px;
 }

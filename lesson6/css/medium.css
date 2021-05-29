@@ -77,6 +77,8 @@
         margin-left: 10px;
         margin-top: 10px;
         padding-left: 10px;
+        opacity: 0.8;
+        text-align: left;
     }
 
     #summary {
@@ -97,13 +99,43 @@
         border: none;
     }
 
-    .forcast-box {  
-        display: flex;
-        justify-content: space-evenly;
+    .days1 {
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        border-radius: 5%;
+    }
+    
+    .days2 {
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        border-radius: 5%;
+    }
+    
+    .days3 {
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        border-radius: 5%;
+    }
+    
+    .days4 {
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        border-radius: 5%;
+    }
+    
+    .days5 {
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        border-radius: 5%;
     }
 
     .forcast-section {
-        padding: 75px 0 0 0;
+        padding: 230px 0 0 0;
         text-align: left;
         background-color: white;
     }
@@ -163,11 +195,11 @@
         grid-row: 1;
     }
 
-    .forcast-box {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }    
+    .icons {
+        display: inline;
+        height: 50px;
+        width: 50px;
+    }
    
 
 

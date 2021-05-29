@@ -40,38 +40,49 @@
       <main>
         <h2>Preston Idaho</h2>
         <section class="hero-section">
-          <img id="heroimage" src="images/cloud-trees.jpg" alt="placeholder"/>
+          <picture>
+          <source srcset="images/banner-1200.jpg" media="(min-width: 1200px)">
+          <source srcset="images/banner-800.jpg" media="(min-width: 800px)">
+          <source srcset="images/banner-600.jpg" media="(min-width: 600px)">
+          <source srcset="images/banner-400.jpg" media="(min-width: 400px)">
+          <img id="heroimage" src="images/banner-300.png" alt="placeholder"/>
+          </picture>
           <div id="summary-block">
             <h4>Weather Summary</h4>
-            <p id="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p id="fulltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="summary-format">
+              <p id="summary">Currently: Sunny</p>
+              <p id="summary">Temperature: <span id="temp"></span></p>
+              <p id="summary">Humidity: 35%</p>
+              <p id="summary">Wind Speed: <span id="wind"></span></p>
+              <p id="summary">Wind Chill: <span id="windchill"></span>°F</p>
+            </div>
           </div>
         </section>
         
         <section class="forcast-section">
           <h2>Five Day Forcast</h2>
           <div class="forcast-box">
-            <div class="days">
+            <div class="days1">
               <img src="images/sun.png" alt="sun icon"/>
               <p>Monday</p>
               <p>65 °F</p>
             </div>
-            <div class="days">
+            <div class="days2">
               <img src="images/sun.png" alt="sun icon"/>
               <p>Tuesday</p>
               <p>70 °F</p>
             </div>
-            <div class="days">
+            <div class="days3">
               <img src="images/sun.png" alt="sun icon"/>
               <p>Wednesday</p>
               <p>75 °F</p>
             </div>
-            <div class="days">
+            <div class="days4">
               <img src="images/sun.png" alt="sun icon"/>
               <p>Thursday</p>
               <p>80 °F</p>
             </div>
-            <div class="days">
+            <div class="days5">
               <img src="images/sun.png" alt="sun icon"/>
               <p>Friday</p>
               <p>85 °F</p>
@@ -123,6 +134,7 @@
       </footer>
       <script defer src="js/banner.js"></script>
       <script src="js/index.js"></script>
+      <script src="js/windchill.js"></script>
     </div>
   </body>
 </html>
