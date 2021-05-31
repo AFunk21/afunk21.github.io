@@ -11,3 +11,36 @@ hambutton.addEventListener("click", toggleMenu, false);
 function toggleMenu() {
   document.querySelector("nav").classList.toggle("responsive");
 }
+
+
+// lazy load
+
+const images = documents.querySelectorAll("[data-src]");
+
+function preloadImage(img) {
+  const src = img.getAttribute("data-src");
+  if(!src) {
+    return;
+  }
+  img.src = src;
+}
+
+const imgOptions = {
+  threshold: 1,
+  rootMargin: "0px 0px -500px 0px"
+};
+
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersection) {
+      return;
+    } else {
+      preloadImage(entry.target);
+      imgObserver.unobserve(entry.target);
+    }
+  })
+}, imgOptions);
+
+images.forEach(image => {
+  imageObserver.observe(image);
+});
