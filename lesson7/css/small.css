@@ -144,13 +144,53 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-
-
-
-
-
-.{
+.gallery {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+}
+
+#image-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#image-2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#image-3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#image-4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#image-5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#image-6 {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#image-7 {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+#image-8 {
+    grid-column: 1;
+    grid-row: 8;
+}
+
+#image-9 {
+    grid-column: 1;
+    grid-row: 9;
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>WDD 230 | Lazy Load Images</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Assignment 7 - Lazy Load">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+  </head>
+
+  <body>
+    <div id="format">
+      <header>
+        <h1>Lazy Load Images</h1>
+        <picture class="pictures">
+            <img data-src="images/fall_tree.jpg" src="images/coming.jpg" alt="fall tree"/>
+            <img data-src="images/winter_tree.jpg" src="images/coming.jpg" alt="winter tree"/>
+            <img data-src="images/river.jpg" src="images/coming.jpg" alt="river"/>
+            <img data-src="images/sunset_clouds.jpg" src="images/coming.jpg" alt="sunset clouds"/>
+            <img data-src="images/half_moon.jpg" src="images/coming.jpg" alt="half moon"/>
+            <img data-src="images/fog.jpg" src="images/coming.jpg" alt="fog"/>
+        </picture>
+      </header>
+      <footer>
+        &copy; <span id="year"></span> | Andrew Funk | Texas |
+        <a href=" https://www.byui.edu/online">BYUI Online Learning</a>
+        <p></p>
+      </footer>
+      <script src="js/lazy-load.js"></script>
+    </div>
+  </body>
+</html>
