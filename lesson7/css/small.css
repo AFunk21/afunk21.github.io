@@ -150,6 +150,11 @@ footer {
     grid-gap: 1em;
 }
 
+picture img {
+    justify-content: center;
+    align-items: center;
+}
+
 #image-1 {
     grid-column: 1;
     grid-row: 1;
