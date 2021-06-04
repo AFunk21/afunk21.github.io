@@ -1,21 +1,5 @@
 
-const datefield = document.querySelector(".date");
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-datefield.innerHTML = `${fulldate}`;
-
-
-const hambutton = document.querySelector(".ham");
-hambutton.addEventListener("click", toggleMenu, false);
-
-function toggleMenu() {
-  document.querySelector("nav").classList.toggle("responsive");
-}
-
-
-// lazy load
-
-const images = documents.querySelectorAll("[data-src]");
+const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
   const src = img.getAttribute("data-src");
@@ -26,8 +10,8 @@ function preloadImage(img) {
 }
 
 const imgOptions = {
-  threshold: 2,
-  rootMargin: "0px 0px -400px 0px"
+  threshold: 0,
+  rootMargin: "0px 0px 200px 0px"
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
@@ -42,5 +26,5 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 }, imgOptions);
 
 images.forEach(image => {
-  imageObserver.observe(image);
+  imgObserver.observe(image);
 });
