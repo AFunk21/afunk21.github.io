@@ -151,7 +151,7 @@ main {
     width: 100%;
 }
 
-#summary {
+.summary {
     display: block;
     
 }
