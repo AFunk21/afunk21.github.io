@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-        'Roboto, Days One'
+        'Roboto', 'Days One'
       ]
     }
   });
