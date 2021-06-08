@@ -1,6 +1,5 @@
 WebFont.load({
     google: {
-      families: 
-        ['Roboto, Audiowide, Courgette, Lobster, Russo+One, Days+One']
+      families: ['Roboto, Courgette, Lobster, Days+One']
     }
   });
