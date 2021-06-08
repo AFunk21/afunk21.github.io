@@ -95,10 +95,6 @@
         border: none;
     }
 
-    .article-box {
-        border: none;
-    }
-
     .days1 {
         height: 150px;
         width: 150px;
@@ -162,7 +158,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 0px;
-
+        border: none;
     }
 
     #articleimage {
