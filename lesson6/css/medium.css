@@ -169,7 +169,7 @@
         width: 265px;
     }
 
-    #article-text {
+    .article-text {
         grid-column: 1/3;
     }
 
