@@ -252,7 +252,7 @@ a {
     grid-template-columns: 1fr;
 }
 
-.summary-block {
+#summary-block {
     background-color: #396E94;
     color: white;
     display: block;
