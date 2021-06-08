@@ -67,7 +67,7 @@
         max-height: 250px;
     }
 
-    #summary-block {
+    .summary-block {
         background-color: #396E94;
         padding: 0 10px 0 10px;
         color: white;
