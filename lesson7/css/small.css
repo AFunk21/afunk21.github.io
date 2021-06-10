@@ -18,7 +18,7 @@ font-family: 'Days One', sans-serif;
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
   */
-  .responsive li {
+.responsive li {
 	display: block;
 }
 
@@ -148,6 +148,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    row-gap: 2em;
+    
 }
 
 picture img {
@@ -155,47 +157,70 @@ picture img {
     align-items: center;
 }
 
+figcaption {
+    background-color: lightgray;
+    color: #396E94;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #image-1 {
     grid-column: 1;
     grid-row: 1;
+    width: 300px;
 }
 
 #image-2 {
     grid-column: 1;
     grid-row: 2;
+    width: 300px;
 }
 
 #image-3 {
     grid-column: 1;
     grid-row: 3;
+    width: 300px;
 }
 
 #image-4 {
     grid-column: 1;
     grid-row: 4;
+    width: 300px;
 }
 
 #image-5 {
     grid-column: 1;
     grid-row: 5;
+    width: 300px;
 }
 
 #image-6 {
     grid-column: 1;
     grid-row: 6;
+    width: 300px;
 }
 
 #image-7 {
     grid-column: 1;
     grid-row: 7;
+    width: 300px;
 }
 
 #image-8 {
     grid-column: 1;
     grid-row: 8;
+    width: 300px;
 }
 
 #image-9 {
     grid-column: 1;
     grid-row: 9;
+    width: 300px;
+}
+
+data-src {
+    width: 300px;
+    height: 400px;
 }

@@ -48,4 +48,44 @@
         grid-column: 3;
         grid-row: 3;
     }
+
+
+    #image-1:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-2:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-3:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-4:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-5:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-6:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-7:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-8:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+    
+    #image-9:hover {
+        box-shadow: 0 0 3rem #777;
+    }
+
+    
+
 }
