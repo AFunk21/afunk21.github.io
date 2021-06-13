@@ -1,3 +1,5 @@
+// Help by Bro. Blazzard Instructional Video
+
 function NumberOfDays(start, end) {
     const oneDay = 1000 * 60 * 60 * 24;
 

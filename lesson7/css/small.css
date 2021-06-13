@@ -123,13 +123,6 @@ main {
     min-height: calc(100vh - 274px);
   }
 
-#heroimage {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    width: 100%;
-}
 
 footer a {
     color: #FFFFFF;
@@ -152,7 +145,12 @@ footer {
     
 }
 
-picture img {
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
     justify-content: center;
     align-items: center;
 }
