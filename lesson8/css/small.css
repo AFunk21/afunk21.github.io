@@ -145,10 +145,8 @@ footer {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-    row-gap: 2em;
+
+    margin-left: 3%;
     
 }
 
@@ -223,4 +221,36 @@ figcaption {
 data-src {
     width: 300px;
     height: 400px;
+}
+
+form {
+    border: #0057b8 6px;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+
+div input:invalid {
+	border-left: #EE4949 solid 6px;
+}
+div input:valid {
+	border-left: #30AB3F solid 6px;
+}
+
+label {
+    display: inline-block;
+    width: 165px;
+    font-weight: bold;
+}
+
+#danger label {
+    margin-left: 10px;
+}
+
+.submit {
+    background-color: #396E94;
+    color: white;
+    padding: 5px 15px 5px 15px;
 }

@@ -14,3 +14,10 @@ document.querySelector("span.visit").innerHTML = NumberOfDays(
 );
 
 localStorage.setItem("date", new Date());
+
+
+
+//codepen example code
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+  }
