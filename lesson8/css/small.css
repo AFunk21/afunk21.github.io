@@ -120,7 +120,7 @@ a {
 main {
     margin: 0 10px 0 10px;
     font-family: 'Roboto', sans-serif;
-    min-height: calc(100vh - 274px);
+    min-height: calc(100vh - 476px);
   }
 
 #heroimage {
@@ -229,6 +229,11 @@ form {
     background-color: lightgray;
     padding: 15px;
     margin-bottom: 25px;
+}
+
+.thankyou {
+    text-align: center;
+    margin-top: 100px;
 }
 
 
