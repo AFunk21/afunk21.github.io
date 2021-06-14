@@ -5,7 +5,7 @@ function NumberOfDays(start, end) {
 
     const differenceInTime = end - start;
 
-    const diffInDays = Math.round(diffInTime / oneDay);
+    const diffInDays = Math.round(differenceInTime / oneDay);
 
     return diffInDays;
 }
