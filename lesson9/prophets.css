@@ -18,10 +18,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     background: lightgray;
-    margin: 0 auto;
-    padding: 3px;
-    max-width: 1200px;
-
+    padding: 5px;
 }
 
 .cards section {
@@ -30,8 +27,6 @@ header {
     text-align: center;
     margin: 5px;
     padding: 10px;
-    
-    
 }
 
 .cards section img {
