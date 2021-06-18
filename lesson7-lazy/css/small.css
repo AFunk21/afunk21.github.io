@@ -59,11 +59,7 @@ h1 {
     font-size: 1.3em;
 }
 
-main {
-    margin: 0 10px 0 10px;
-    font-family: 'Roboto', sans-serif;
-    min-height: calc(100vh - 274px);
-  }
+
 
 footer {
   text-align: center;
