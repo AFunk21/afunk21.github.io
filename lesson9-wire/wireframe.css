@@ -1,26 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bree+Serif&family=Comfortaa:wght@600&family=Courgette&family=Girassol&family=Lobster&family=Rubik:wght@300;400&family=Russo+One&family=Suez+One&display=swap&family=Days+One&display=swap');
 
-/*
-font-family: 'Audiowide', cursive;
-font-family: 'Bree Serif', serif;
-font-family: 'Comfortaa', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Girassol', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Russo One', sans-serif;
-font-family: 'Suez One', serif;
-font-family: 'Days One', sans-serif;
-*/
-
-
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
-.responsive li {
-	display: block;
-}
 
 #format {
   margin: 0 auto;
@@ -36,26 +16,6 @@ header {
   font-family: 'Days One', sans-serif;
 }
 
-.head-grid {
-    display: grid;
-    grid-template-columns: 225px 1fr;
-}
-.head-grid img {
-    grid-column: 1;
-    border: 5px solid white;
-}
-
-header img {
-    width: auto;
-    height: 150px;
-}
-
-.header-text {
-    text-align: left;
-}
-
-
-
 h1 {
     font-size: 1.3em;
 }
@@ -65,7 +25,6 @@ h2 {
     color: #396E94;
     display: block;
 }
-
 
 main {
     margin: 0 10px 0 10px;
