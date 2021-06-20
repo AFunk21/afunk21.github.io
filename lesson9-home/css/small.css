@@ -144,26 +144,6 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-.gallery {
-
-    margin-left: 3%;
-    
-}
-
-picture img {
-    justify-content: center;
-    align-items: center;
-}
-
-figcaption {
-    background-color: lightgray;
-    color: #396E94;
-    padding: 1rem;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 data-src {
     width: 300px;
     height: 400px;
