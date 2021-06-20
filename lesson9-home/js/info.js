@@ -41,6 +41,5 @@ for (towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven" || towns[i
     town.appendChild(img);
 
     document.querySelector('div.cards').appendChild(card); // text from assingment
-        
-    }
+}
 });

@@ -1,89 +1,15 @@
 @media (min-width: 64em) {
-    
-    .gallery {
+
+    .towns { 
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #image-1 {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    #image-2 {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    
-    #image-3 {
-        grid-column: 3;
-        grid-row: 1;
-    }
-    
-    #image-4 {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    
-    #image-5 {
-        grid-column: 2;
-        grid-row: 2;
-    }
-    
-    #image-6 {
-        grid-column: 3;
-        grid-row: 2;
-    }
-    
-    #image-7 {
-        grid-column: 1;
-        grid-row: 3;
-    }
-    
-    #image-8 {
-        grid-column: 2;
-        grid-row: 3;
-    }
-    
-    #image-9 {
-        grid-column: 3;
-        grid-row: 3;
+    .towns section {
+        grid-template-columns: 1fr;
     }
 
-
-    #image-1:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-2:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-3:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-4:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-5:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-6:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-7:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-8:hover {
-        box-shadow: 0 0 3rem #777;
-    }
-    
-    #image-9:hover {
-        box-shadow: 0 0 3rem #777;
+    .towns section:nth-child(odd) .town-text {
+        grid-column: 1;  
     }
 
     

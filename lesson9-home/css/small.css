@@ -164,98 +164,67 @@ figcaption {
     font-weight: bold;
 }
 
-#image-1 {
-    grid-column: 1;
-    grid-row: 1;
-    width: 300px;
-}
-
-#image-2 {
-    grid-column: 1;
-    grid-row: 2;
-    width: 300px;
-}
-
-#image-3 {
-    grid-column: 1;
-    grid-row: 3;
-    width: 300px;
-}
-
-#image-4 {
-    grid-column: 1;
-    grid-row: 4;
-    width: 300px;
-}
-
-#image-5 {
-    grid-column: 1;
-    grid-row: 5;
-    width: 300px;
-}
-
-#image-6 {
-    grid-column: 1;
-    grid-row: 6;
-    width: 300px;
-}
-
-#image-7 {
-    grid-column: 1;
-    grid-row: 7;
-    width: 300px;
-}
-
-#image-8 {
-    grid-column: 1;
-    grid-row: 8;
-    width: 300px;
-}
-
-#image-9 {
-    grid-column: 1;
-    grid-row: 9;
-    width: 300px;
-}
-
 data-src {
     width: 300px;
     height: 400px;
 }
 
-form {
-    border: #0057b8 6px;
-    border-radius: 5px;
-    background-color: lightgray;
-    padding: 15px;
-    margin-bottom: 25px;
+.towns {
+    display: grid;
 }
 
-.thankyou {
+.towns section {
+    margin: 5px;
     text-align: center;
-    margin-top: 100px;
-}
-
-
-div input:invalid {
-	border-left: #EE4949 solid 6px;
-}
-div input:valid {
-	border-left: #30AB3F solid 6px;
-}
-
-label {
-    display: inline-block;
-    width: 165px;
-    font-weight: bold;
-}
-
-#danger label {
-    margin-left: 10px;
-}
-
-.submit {
-    background-color: #396E94;
+    background: #387794;
+    padding: 10px;
     color: white;
-    padding: 5px 15px 5px 15px;
+}
+
+.towns section {
+    display: grid;
+}
+
+.towns section img {
+    max-width: 100%;
+    align-self: end;
+    justify-self: center;
+}
+
+#articleimage {
+    width: 250px;
+    
+}
+
+#article-text {
+    padding: 10px;
+}
+
+.article-box {
+    border: 5px solid lightgray;
+
+}
+
+.bottom-info {
+    width: 100%;
+    background-color: #36454F;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+.location-img {
+
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#map {
+    width: 355px;
+    height: 250px;
+}
+
+.contact-info h3 {
+    color: white;
+
 }
