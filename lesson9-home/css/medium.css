@@ -40,6 +40,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    /* Code from the Codepen example */
+
     .towns section:nth-child(odd) img {
         grid-column: 1;
     }
@@ -53,15 +55,9 @@
         grid-row: 1;
     }
 
-    .towns section img {
-        max-width: 100%;
-        align-self: end;
-    }
-
     .news-grid {
         grid-template-columns: 1fr 1fr;
     }
-
 
     .article-section {
         padding-top: 75px;
@@ -73,7 +69,6 @@
         background-color: lightgray;
         padding: 25px;
         margin-top: 0px;
-
     }
 
     #article-text {

@@ -151,14 +151,16 @@ data-src {
 
 .towns {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .towns section {
-    margin: 5px;
-    text-align: center;
     background: #387794;
-    padding: 10px;
     color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    
 }
 
 .towns section {
