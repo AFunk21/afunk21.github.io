@@ -42,18 +42,34 @@
 
     /* Code from the Codepen example */
 
+
+    .towns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+    .towns section h2 {
+        margin-bottom: 0;
+        grid-column: 1 / 2;
+    }
+    .towns section p {
+        grid-column: 1 / 2;
+    }
     .towns section:nth-child(odd) img {
-        grid-column: 1;
+        grid-column: 1 / 2;
+    }
+    .towns section:nth-child(odd) h2 {
+        grid-column: 2 / 3;
+    }
+    .towns section:nth-child(odd) p {
+        grid-column: 2 / 3;
+    }
+    .towns section img {
+        grid-column: 2 / 3;
+        grid-row: 1 / 6;
     }
 
-    .towns section:nth-child(even) img {
-        justify-self: right;
-    }
-
-    .towns section:nth-child(odd) .town-text {
-        grid-column: 2;
-        grid-row: 1;
-    }
+    .towns 
 
     .news-grid {
         grid-template-columns: 1fr 1fr;

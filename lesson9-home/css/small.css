@@ -188,6 +188,18 @@ data-src {
 
 }
 
+aside {
+    display: none;
+}
+
+aside p {
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0 20px 0;
+    color: #36454f;
+    background-color: orange;
+}
+
 .bottom-info {
     width: 100%;
     background-color: #36454F;
