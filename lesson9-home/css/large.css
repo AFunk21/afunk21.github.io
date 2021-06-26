@@ -11,7 +11,10 @@
     .towns section:nth-child(odd) .town-text {
         grid-column: 1;  
     }
-
+    .towns img {
+        width: 300px;
+        height: 200px;
+    }
     
 
 }

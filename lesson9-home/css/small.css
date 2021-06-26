@@ -165,6 +165,7 @@ data-src {
 
 .towns section {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .towns section img {
@@ -209,4 +210,13 @@ data-src {
 .contact-info h3 {
     color: white;
 
+}
+
+.towns h2 {
+    color: white;
+}
+
+.towns img {
+    width: 300px;
+    height: 200px;
 }

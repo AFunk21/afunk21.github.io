@@ -10,7 +10,7 @@ fetch(requestURL)
         const three = towns.filter((town) => town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
 
         three.forEach((town) => {
-            let town = document.createElement("section");
+            let card = document.createElement("section");
             let h2 = document.createElement("h2");
             let motto = document.createElement("p");
             let year = document.createElement("p");
@@ -26,13 +26,13 @@ fetch(requestURL)
             image.setAttribute("src", `images/${town.photo}`);
             image.setAttribute("alt", `A landscape picture of ${town.name}!`);
 
-            town.appendChild(h2);
-            town.appendChild(motto);
-            town.appendChild(year);
-            town.appendChild(population);
-            town.appendChild(rain);
-            town.appendChild(image);
+            card.appendChild(h2);
+            card.appendChild(motto);
+            card.appendChild(year);
+            card.appendChild(population);
+            card.appendChild(rain);
+            card.appendChild(image);
 
-            document.querySelector("div.towns").appendChild(town);
+            document.querySelector("div.towns").appendChild(card);
         });
     });
