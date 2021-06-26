@@ -14,7 +14,6 @@ fetch(apiURL)
     const current = mySentence.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
 
     let wind = weather.wind.speed;
-
     let humidity = weather.main.humidity;
     
     if (parseInt(currentTemp) <= 50 && parseInt(wind) > 3) {
@@ -24,23 +23,9 @@ fetch(apiURL)
     } else {
         document.querySelector('#windchill').textContent = "N/A";
     }
-
-    document.getElementById('sum-hum').textContent = humidity;
-    document.getElementById('sum-speed').textContent = Math.round(wind);
-    document.getElementById('sum-curr').textContent = current;
-    document.getElementById('sum-temp').textContent = Math.round(high);
+    
+    document.getElementById('temperature').textContent = current;
+    document.getElementById('wind-speed').textContent = Math.round(wind);
+    document.getElementById('humidity').textContent = humidity;
   });
 
-
-
-
-//const temp = document.querySelector('#temp').textContent;
-//const wind = document.querySelector('#wind').textContent;
-
-//if (parseInt(temp) <= 50 && parseInt(wind) > 3) {
-    //const windchill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(wind, 0.16) + 0.4275 * temp * Math.pow(wind, 0.16);
-    //const wc_round = Math.round(windchill);  
-    //document.querySelector('#windchill').textContent = wc_round;
-//} else {
-    //document.querySelector('#windchill').textContent = "N/A";
-//}
