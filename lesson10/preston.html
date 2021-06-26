@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>WDD 230 | Lesson 3 | Web Planning Document - Home</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Andrew Funk WDD230 website planning document assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    
+    <div id="format">
+      <aside id="banner">
+        <p><b>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</b></p>
+      </aside>
+      <header class="head-grid">
+          <img src="images/logo.jpg" alt="logo"/>
+          <div class="header-text">
+            <h1>Weather Rock</h1>
+            <p>Your source for local weather</p>
+          </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a class="ham" href="#">&#9776; Menu</a></li>
+          <li><a href="https://afunk21.github.io/lesson9-home/index.html">Home</a></li>
+          <li><a class="current-page" href="https://afunk21.github.io/lesson6/index.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="https://afunk21.github.io/lesson9-home/index.html">Storm Center</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Preston Idaho</h2>
+        <section class="hero-section">
+          <picture>
+          <source srcset="images/banner-1200.jpg" media="(min-width: 1200px)">
+          <source srcset="images/banner-800.jpg" media="(min-width: 800px)">
+          <source srcset="images/banner-600.jpg" media="(min-width: 600px)">
+          <source srcset="images/banner-400.jpg" media="(min-width: 400px)">
+          <img id="heroimage" src="images/banner-300.png" alt="placeholder"/>
+          </picture>
+          <div id="summary-block">
+            <h4>Weather Summary</h4>
+            <div class="summary-format">
+              <p class="summary">Currently: Sunny</p>
+              <p class="summary">Temperature: <span id="temp">45</span>°F</p>
+              <p class="summary">Wind Speed: <span id="wind">20</span>mph</p>
+              <p class="summary">Wind Chill: <span id="windchill"></span>°F</p>
+              <p class="summary">Humidity: 18%</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="forcast-section">
+          <h2>Five Day Forcast</h2>
+          <div class="forcast-box">
+            <div class="days1">
+              <img src="images/sun.png" alt="sun icon"/>
+              <p>Monday</p>
+              <p>65 °F</p>
+            </div>
+            <div class="days2">
+              <img src="images/sun.png" alt="sun icon"/>
+              <p>Tuesday</p>
+              <p>70 °F</p>
+            </div>
+            <div class="days3">
+              <img src="images/sun.png" alt="sun icon"/>
+              <p>Wednesday</p>
+              <p>75 °F</p>
+            </div>
+            <div class="days4">
+              <img src="images/sun.png" alt="sun icon"/>
+              <p>Thursday</p>
+              <p>80 °F</p>
+            </div>
+            <div class="days5">
+              <img src="images/sun.png" alt="sun icon"/>
+              <p>Friday</p>
+              <p>85 °F</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="article-section">
+          <div class="article-box">
+            <div class="article-text">
+              <h2>Article</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <img id="articleimage" src="images/pedestrians.jpg" alt="placeholder"/>
+          </div>
+          
+        </section>
+        
+        <br>
+        <br>
+        
+      </main>
+
+      <footer>
+        <section class="bottom-info">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Address: 123-456-7890</p>
+            <p>Phone Number: 123-456-7890</p>
+            <p>Email: name@gmail.com</p>
+            <div class="icons">
+              <a href="facebook.com"><img src="images/facebook-icon.jpg" alt="facebook icon"/></a>
+              <a href="twitter.com"><img src="images/twitter-icon.jpg" alt="twitter icon"/></a>
+              <a href="youtube.com"><img src="images/youtube-icon.jpg" alt="youtube icon"/></a>
+            </div>
+          </div>
+          <div class="location-img">
+            <img id="map" src="images/map-preston.jpg" alt="logo"/>
+          </div>
+        </section>
+
+        <div class="last-updated">
+          <br>
+
+          &copy; <span id="year"></span> | Andrew Funk | Texas |
+          <a href=" https://www.byui.edu/online">BYUI Online Learning</a>
+          <p><span class="date"></span></p>
+      </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script defer src="js/webfont.js"></script>
+      <script defer src="js/banner.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/windchill.js"></script>
+    </div>
+  </body>
+</html>
+
+

@@ -69,8 +69,6 @@
         grid-row: 1 / 6;
     }
 
-    .towns 
-
     .news-grid {
         grid-template-columns: 1fr 1fr;
     }
