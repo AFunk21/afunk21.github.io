@@ -17,6 +17,7 @@ fetch(requestURL)
             let population = document.createElement("p");
             let rain = document.createElement("p");
             let image = document.createElement("img");
+            let box = document.createElement("div");
 
             h2.textContent = town.name;
             motto.textContent = `"${town.motto}"`;
