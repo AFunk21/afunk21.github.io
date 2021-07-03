@@ -159,6 +159,12 @@ main {
     text-decoration: none;
 }
 
+.forecast-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: end;
+}
+
 #fulltext {
     display: block;
 }
@@ -281,8 +287,8 @@ a {
     background-color: #396E94;
 }
 
-.forcast-section {
-    text-align: center;
+.forecast-section {
+    margin-top: 75px;
 }
 
 .article-box {
@@ -290,7 +296,7 @@ a {
 
 }
 
-.forcast-box {
+.forecast-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: end;
