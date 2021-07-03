@@ -19,6 +19,7 @@
         document.getElementById(`forecast${day+1}`).textContent = Math.round(x.main.temp);
         
         // Used the same concept for the image by creating an class then specified scr and implemented where to locate it within the url to locate the image.
+        // this will implement the scr code into the image tag when I call out the id "day#" for each day/image.
         document.getElementById(`icon${day+1}`).setAttribute('src', `https://openweathermap.org/img/w/${x.weather[0].icon}.png`);
         day++
     });
