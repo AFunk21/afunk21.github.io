@@ -1,0 +1,128 @@
+@media only screen and (min-width: 51.25em) {
+    header {
+        width: auto;
+      }
+
+    nav ul {
+        display: flex;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+ 
+	nav li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+
+	nav li:first-child {
+		display: none;
+	}
+
+    nav .current-page {
+        background-color: lightgray;
+        color: #396E94;
+    }
+
+    footer {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    .towns section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Code from the Codepen example */
+
+
+    .towns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+    .towns section h2 {
+        margin-bottom: 0;
+        grid-column: 1 / 2;
+    }
+    .towns section p {
+        grid-column: 1 / 2;
+    }
+    .towns section:nth-child(odd) img {
+        grid-column: 1 / 2;
+    }
+    .towns section:nth-child(odd) h2 {
+        grid-column: 2 / 3;
+    }
+    .towns section:nth-child(odd) p {
+        grid-column: 2 / 3;
+    }
+    .towns section img {
+        grid-column: 2 / 3;
+        grid-row: 1 / 6;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-section {
+        padding-top: 75px;
+    }
+
+    .article-box {
+        display: block;
+        width: auto;
+        background-color: lightgray;
+        padding: 25px;
+        margin-top: 0px;
+    }
+
+    #article-text {
+        grid-column: 1/3;
+    }
+
+    .bottom-info {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 100px 1fr;
+        padding: 50px;
+    }
+    
+    .location-img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .contact-info {
+        text-align: left;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .towns img {
+        display: inline-block;
+        width: 500px;
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+   
+
+
+}
+
+

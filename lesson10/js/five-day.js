@@ -1,5 +1,7 @@
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial"; //weather api activity - website
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial";
+
+ //weather api activity - website
 
 fetch(forecastURL) // from the preston weather activity
     .then((response) => response.json()) // from the preston weather activity
@@ -8,17 +10,16 @@ fetch(forecastURL) // from the preston weather activity
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']; // setting string of days
         console.log(fiveDayForecast); // from the preston weather activity
 
-        fiveDayForecast.forEach( forecast => {// from the preston weather activity
-            const currentDate = new Date(forecast.dt_txt); // calling the day
+        fiveDayForecast.forEach( fore_cast => {// from the preston weather activity
+            const currentDate = new Date(fore_cast.dt_txt); // calling the day
             const weekDay = days[currentDate.getDay()]; // calling the day of the week
             const temp = Math.round(forecast.main.temp_max); // calling for the temperature
-            const imagesrc = 'https://openweathermap.org/img/wn/' + forecast.weather[0].icon + '.png'; 
+            const imagesrc = 'https://openweathermap.org/img/wn/' + fore_cast.weather[0].icon + '.png'; 
 
             let dayContainer = document.createElement('div'); //referencing structure from my week 9 assingment - info.js file 
             let forecastImg = document.createElement('img'); //referencing structure from my week 9 assingment - info.js file
             let fiveDayContainer = document.createElement('p'); //referencing structure from my week 9 assingment - info.js file
             let dayTemp = document.createElement('p'); //referencing structure from my week 9 assingment - info.js file
-
             
             forecastImg.setAttribute('src', imagesrc); //referencing structure from my week 9 assingment - info.js file
             forecastImg.setAttribute('alt', "weather icon"); //referencing structure from my week 9 assingment - info.js file
