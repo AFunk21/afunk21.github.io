@@ -96,42 +96,42 @@
     }
 
     .days1 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         justify-content: center;
         border-radius: 5%;
     }
     
     .days2 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         justify-content: center;
         border-radius: 5%;
     }
     
     .days3 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         justify-content: center;
         border-radius: 5%;
     }
     
     .days4 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         justify-content: center;
         border-radius: 5%;
     }
     
     .days5 {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         justify-content: center;
         border-radius: 5%;
     }
 
     .forcast-section {
-        padding: 230px 0 0 0;
+        padding: 80px 0 0 0;
         text-align: left;
         background-color: white;
     }

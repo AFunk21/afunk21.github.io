@@ -280,7 +280,6 @@ a {
 }
 
 .forcast-header {
- 
     border: 5px solid lightgray;
     padding: 10px;
     color: white;
@@ -288,7 +287,7 @@ a {
 }
 
 .forecast-section {
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 .article-box {
