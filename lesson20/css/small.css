@@ -1,0 +1,239 @@
+
+
+/* ------------------------------------------------ Home ------------------------------------------------ */
+
+
+
+/* -------- Aside Banner -------- */
+
+aside {
+    display: none;
+}
+
+/* -------- Header -------- */
+
+header img {
+    width: 100%;
+}
+
+
+
+/* -------- Navigation Bar -------- */
+
+nav {
+    background-color: #715780;
+    text-align: center;
+    font-family: 'Noto serif', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 0.75rem;
+    font-size: 0.95rem;
+}
+nav a:hover {
+    background-color: #AABD8C;
+    color: #5D6F34;
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+
+
+/* -------- Main -------- */
+
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: #5D6F34;
+    display: block;
+}
+
+h3 {
+    color: #5D6F34;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0057b8;
+}
+
+
+main {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+
+
+
+/* -------- Footer -------- */
+
+
+
+
+
+
+/* ------------------------------------------------ City ------------------------------------------------ */
+
+
+
+/* -------- Aside Banner -------- */
+
+
+
+
+
+/* -------- Header -------- */
+
+
+
+
+
+/* -------- Navigation Bar -------- */
+
+
+
+
+
+/* -------- Main -------- */
+
+
+
+
+
+
+/* -------- Footer -------- */
+
+
+
+
+
+/* ------------------------------------------------ Join ------------------------------------------------ */
+
+
+
+/* -------- Aside Banner -------- */
+
+
+
+
+
+/* -------- Header -------- */
+
+
+
+
+
+/* -------- Navigation Bar -------- */
+
+
+
+
+
+/* -------- Main -------- */
+
+
+
+
+
+
+/* -------- Footer -------- */
+
+
+
+
+
+
+/* ------------------------------------------------ Directory ------------------------------------------------ */
+
+
+
+/* -------- Aside Banner -------- */
+
+
+
+
+
+/* -------- Header -------- */
+
+
+
+
+
+/* -------- Navigation Bar -------- */
+
+
+
+
+
+/* -------- Main -------- */
+
+
+
+
+
+
+/* -------- Footer -------- */
+
+
+
+
+
+
+/* ------------------------------------------------ Contact ------------------------------------------------ */
+
+
+
+/* -------- Aside Banner -------- */
+
+
+
+
+
+/* -------- Header -------- */
+
+
+
+
+
+/* -------- Navigation Bar -------- */
+
+
+
+
+
+/* -------- Main -------- */
+
+
+
+
+
+
+/* -------- Footer -------- */
