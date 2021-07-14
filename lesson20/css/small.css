@@ -125,7 +125,8 @@ footer {
   font-family: 'Noto Serif', sans-serif;
   background-color: #715780;
   color: #BBB1BD;
-  padding: 5px 0 5px 0;
+  padding:  15px 0 5px 0;
+  line-height: 1;
 }
 
 .contact-info {
@@ -146,6 +147,23 @@ footer a {
 
 footer a:hover {
     color: #ffffff
+}
+
+.pre-footer {
+    display: block;
+    justify-content: space-between;
+    background-color: #715780;
+    margin-top: 100px;
+    padding: 10px 20% 10px 20%;
+    line-height: 1;
+}
+
+.pre-footer h3 {
+    color: #AABD8C;
+}
+
+.pre-footer p {
+    color: #BBB1BD;
 }
 
 
