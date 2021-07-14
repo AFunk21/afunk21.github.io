@@ -6,6 +6,7 @@
 
 body {
     background-color: #fffff8;
+    color: #676767;
 }
 
 /* ------------------------------------------------ Home ------------------------------------------------ */
@@ -88,16 +89,19 @@ nav li {
 
 h1 {
     font-size: 2em;
+    font-family: 'Noto Serif', sans-serif;
 }
 
 h2 {
     font-size: 1.7em;
     color: #5D6F34;
     display: block;
+    font-family: 'Noto Serif', sans-serif;
 }
 
 h3 {
     color: #5D6F34;
+    font-family: 'Noto Serif', sans-serif;
 }
 
 h4 {
