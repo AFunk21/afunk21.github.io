@@ -4,6 +4,10 @@
     height: 400px;
 }*/
 
+body {
+    background-color: #fffff8;
+}
+
 /* ------------------------------------------------ Home ------------------------------------------------ */
 
 /* -------- Aside Banner -------- */
@@ -48,6 +52,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
+
 nav ul li a {
     display: block;
     text-decoration: none;
@@ -56,6 +61,7 @@ nav ul li a {
     padding: 0.75rem;
     font-size: 0.95rem;
 }
+
 nav a:hover {
     background-color: #AABD8C;
     color: #5D6F34;
@@ -70,8 +76,7 @@ nav li {
 }
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
+  <ul class="navigation responsive"> */
   .responsive li {
 	display: block;
 }
@@ -107,7 +112,6 @@ a {
     text-decoration: none;
     color: #0057b8;
 }
-
 
 main {
     margin: 0 auto;
@@ -146,7 +150,7 @@ footer a {
   }
 
 footer a:hover {
-    color: #ffffff
+    color: #fffff8;
 }
 
 .pre-footer {
