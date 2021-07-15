@@ -90,31 +90,34 @@ nav li {
 h1 {
     font-size: 2em;
     font-family: 'Noto Serif', sans-serif;
+    color: #5D6F34;
 }
 
 h2 {
     font-size: 1.7em;
-    color: #5D6F34;
     display: block;
     font-family: 'Noto Serif', sans-serif;
+    color: #5D6F34;
 }
 
 h3 {
-    color: #5D6F34;
     font-family: 'Noto Serif', sans-serif;
+    color: #5D6F34;
 }
 
 h4 {
     font-size: 20px;
+    margin-block-start: .5em;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: #5c5b5b;
 }
 
 a {
     text-decoration: none;
-    color: #0057b8;
+    color: #777e85;
 }
 
 main {
@@ -123,6 +126,195 @@ main {
     min-height: calc(100vh - 476px);
   }
 
+  /* ------------------- Welcome ------------------ */
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 30px 1fr 1fr;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+#welcome {
+    grid-column: 1/5;
+    grid-row: 1/6;
+    padding-top: -10px;
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Roboto;
+    background-color: #596e28; /* Green */
+    border: 3px solid orange;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 10px;
+    grid-column: 6/8;
+    grid-row: 1/2;
+
+}
+
+button a {
+    color: white;
+}
+button:hover {
+    background-color: orange;
+}
+
+#weather-forcast {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    grid-column: 6/8;
+    grid-row: 3/8;
+    color: #5D6F34;
+    font-family: 'Roboto';
+}
+
+.summary-format {
+    line-height: 0.4em;
+}
+
+.forecast-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days1 {
+    display: block;
+    text-align: center;
+}
+
+.days2 {
+    display: block;
+    text-align: center;
+}
+
+.days3 {
+    display: block;
+    text-align: center;
+}
+
+
+
+  /* ------------------- Weekly Highlights ------------------ */
+
+*  {box-sizing: border-box}
+
+.mySlides {
+    display: none
+}
+
+.content {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.slider-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+}
+
+  /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    background-color: #AABD8C;
+    padding: 15px;
+    max-width: 80%;
+  }
+  
+/* Next & Previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
 
 
 
@@ -145,7 +337,11 @@ footer h3 {
     color: #AABD8C;
 }
 
-last-updated a {
+.last-updated a {
+    color: #BBB1BD;
+}
+
+.last-updated p {
     color: #BBB1BD;
 }
 
@@ -161,7 +357,6 @@ footer a:hover {
     display: block;
     justify-content: space-between;
     background-color: #715780;
-    margin-top: 100px;
     padding: 10px 20% 10px 20%;
     line-height: 1;
 }

@@ -42,20 +42,79 @@
 
     <main>
         <br><br>
-        <section id="welcome">
-            <div id="intro">
-                <h2>Welcome To Grapevine</h2>
-                <p>We are happy that you came to visit our great city...</p>
-            </div>
-            <div id="subscribe">
-            </div>
+        <h1>Welcome To Grapevine</h1>
+        <section class="intro">
+            <div id="welcome">
+                <p>We are happy that you came to visit our great city... Lorem ipsum facebook, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div> 
+            <button><a href="#" >Subscribe</a></button>
             <div id="weather-forcast">
+                <h4>Weather Forecast</h4>
+                <div class="summary-format">
+                    <p class="summary">Currently: <span id="current"></span></p>
+                    <p class="summary">Temperature: <span id="temperature"></span>°F</p>
+                    <p class="summary">Humidity: <span id="humidity"></span>%</p>
+                </div>
+                <div class="forecast-boxes">
+                    <div class="days1">
+                      <span id="dayofweek1"></span><br>
+                      <img id="icon1" src="https//:," alt="forecast image"><br>
+                      <span id="forecast1"></span>&deg;F
+                   </div>
+                   <div class="days2">
+                    <span id="dayofweek2"></span><br>
+                    <img id="icon2" src="https//:," alt="forecast image"><br>
+                    <span id="forecast2"></span>&deg;F
+                   </div>
+                   <div class="days3">
+                      <span id="dayofweek3"></span><br>
+                      <img id="icon3" src="https//:," alt="forecast image"><br>
+                      <span id="forecast3"></span>&deg;F
+                   </div>
             </div>
-        
         </section>
 
-        <section id="highlights">
+        <h2>Weekly Highlights</h2>
+        <section class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="content">
+                    <h3>Caption Text 1</h3>
+                    <p>Lorem ipsum facebook, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
+                <div class="slider-img">
+                    <img src="images/youtube-icon.jpg">
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="content">
+                    <h3>Caption Text 2</h3>
+                    <p>Lorem ipsum youtube, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
+                <div class="slider-img">
+                    <img src="images/youtube-icon.jpg">
+                </div>
+                
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="content">
+                    <h3>Caption Text 3</h3>
+                    <p>Lorem ipsum twitter, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
+                <div class="slider-img">
+                    <img src="images/youtube-icon.jpg">
+                </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </section>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
 
         <section id="events">
         </section>
@@ -91,8 +150,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="js/webfont.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
     <script src="js/lazy-load.js"></script>
     <script src="js/storage.js"></script>
+    <script src="js/summary-preston.js"></script>
 
   </body>
 </html>
