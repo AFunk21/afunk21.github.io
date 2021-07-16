@@ -216,6 +216,20 @@
 
     /* -------- Main -------- */
 
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .map {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .contact-info {
+        grid-column: 1;
+        grid-row: 1;
+    }
 
 
 

@@ -167,7 +167,19 @@
 
     /* -------- Main -------- */
 
-
+    .contact-form {
+        grid-template-columns: 1fr 50px 1fr;
+    }
+    
+    .map {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    
+    .contact-info {
+        grid-column: 3/4;
+        grid-row: 1;
+    }
 
 
 

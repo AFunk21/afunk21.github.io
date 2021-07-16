@@ -369,6 +369,10 @@ footer a:hover {
     color: #BBB1BD;
 }
 
+div a img {
+    width: 50px;
+    opacity: 0.9;
+}
 
 
 
@@ -475,7 +479,48 @@ footer a:hover {
 
 /* -------- Main -------- */
 
+#join-format {
+    max-width: 500px;
+  }
 
+fieldset {
+    padding: 2em 2em 2em;
+}
+
+legend {
+    padding: 0 10px 0 10px;
+}
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.levels {
+    font-family: "Noto Serif";
+    font-size: 20px;
+    color: #715780;
+}
 
 
 
@@ -547,10 +592,41 @@ footer a:hover {
 
 /* -------- Main -------- */
 
+/* contact-page {
+    max-width: 960px;
+}*/
 
 
+.directors {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
 
+#image-1:hover {
+    box-shadow: 0 0 3rem #777;
+}
+
+#image-2:hover {
+    box-shadow: 0 0 3rem #777;
+}
+
+#image-3:hover {
+    box-shadow: 0 0 3rem #777;
+}
+
+#image-4:hover {
+    box-shadow: 0 0 3rem #777;
+}
+
+#image-5:hover {
+    box-shadow: 0 0 3rem #777;
+}
+
+#image-6:hover {
+    box-shadow: 0 0 3rem #777;
+}
 
 /* -------- Footer -------- */
 
