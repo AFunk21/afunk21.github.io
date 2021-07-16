@@ -397,11 +397,49 @@ footer a:hover {
 /* -------- Main -------- */
 
 .about-city {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 .about-city p{
+    grid-column: 1/2;
+    grid-row: 1;
     line-height: 1.6em;
 }
+
+.christmas {
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 30px;
+    margin: 20px 0 0 30px;  
+}
+
+.christmas:hover {
+    opacity: 0.8;
+}
+
+.about-train {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.about-train p {
+    grid-column: 2/3;
+    grid-row: 1;
+    line-height: 1.6em;
+}
+
+.train {
+    grid-column: 1/2;
+    grid-row: 1;
+    border-radius: 30px;  
+    margin: 20px 30px 0 0;  
+}
+
+.train:hover {
+    opacity: 0.8;
+}
+
+
 
 
 
