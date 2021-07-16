@@ -117,7 +117,7 @@ main {
     margin: 0 auto;
     max-width: 960px;
     min-height: calc(100vh - 476px);
-    
+    padding: 25px;
   }
 
 
