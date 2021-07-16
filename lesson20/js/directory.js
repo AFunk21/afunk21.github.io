@@ -16,10 +16,11 @@ for (let i = 0; i < business.length; i++ ) {
         let phone = document.createElement("p");
         let image = document.createElement("img");
 
-        h2.textContent = business[i].name + ' ' + business[i].name; 
-        address.textContent = 'Address: ' + business[i].address ; 
-        phone.textContent = 'Phone: ' + business[i].phone; 
-        img.setAttribute('src', business[i].imageurl, ); 
+        h2.textContent = business[i].name; 
+        address.textContent = business[i].address; 
+        phone.textContent = business[i].phone; 
+        image.setAttribute("src", `images/${business.photo}`);
+        image.setAttribute("alt", `${business.alternate}!`);
 
         card.appendChild(image);
         card.appendChild(h2);

@@ -5,84 +5,96 @@
         "address": "636 S Main St, Grapevine, TX 76051",
         "phone": "(800) 457-6338",
         "website": "http://www.grapevinetexasusa.com/",
-        "imageurl": "headquarters.jpg"
+        "imageurl": "headquarters.jpg",
+        "alternate": "Picture of Grapevine Convention Center"
       },
       {
         "name": "Grapevine Market On Main",
         "address": "337 S Main St, Grapevine, TX 76051",
         "phone": "(817) 488-7656",
         "website": "https://www.grapevinesmarketonmain.com/",
-        "imageurl": "market-on-main.jpg"
+        "imageurl": "market-on-main.jpg",
+        "alternate": "Picture of Grapevine Market On Main"
       },
       {
         "name": "Ashlins Ltd",
         "address": "413 S Main St, Grapevine, TX 76051",
         "phone": "(817) 442-0400",
         "website": "http://www.ashlins.com/",
-        "imageurl": "ashlins.jpg"
+        "imageurl": "ashlins.jpg",
+        "alternate": "Picture of Ashlins Ltd"
       },
       {
         "name": "Good Things For All Seasons",
         "address": "334 S Main St, Grapevine, TX 76051",
         "phone": "(817) 251-3673",
         "website": "http://www.goodthingsforallseasons.com/",
-        "imageurl": ".jpg"
+        "imageurl": ".jpg",
+        "alternate": "Picture of Good Things For All Seasons"
       },
       {
         "name": "A Hole In The Wall",
         "address": "419 S Main St, Grapevine, TX 76051",
         "phone": "(817) 421-8999",
         "website": "https://m.facebook.com/Hole-in-the-Wall-Gift-Store-1144948172222149/?ref=page_internal&mt_nav=0",
-        "imageurl": ".jpg"
+        "imageurl": ".jpg",
+        "alternate": "Picture of A Hole In The Wall"
       },
       {
         "name": "Palace Arts Center",
         "address": "300 S Main St, Grapevine, TX 76051",
         "phone": "(817) 410-3100",
         "website": "http://www.palace-theatre.com/",
-        "imageurl": "art-center.jpg"
+        "imageurl": "art-center.jpg",
+        "alternate": "Picture of Palace Arts Center"
       },
       {
         "name": "Tolbert's Restaurant & Chili Parlor",
         "address": "423 S Main St, Grapevine, TX 76051",
         "phone": "(817) 421-4888",
         "website": "http://www.tolbertsrestaurant.com/",
-        "imageurl": "tolbers.jpg"
+        "imageurl": "tolbers.jpg",
+        "alternate": "Picture of Tolbert's Restaurant"
       },
       {
         "name": "Main Street Bistro & Bakery",
         "address": "316 S Main St, Grapevine, TX 76051",
         "phone": "(817) 424-4333",
         "website": "http://www.themainbakery.com/",
-        "imageurl": "bistro.jpg"
+        "imageurl": "bistro.jpg",
+        "alternate": "Picture of Main Street Bistro & Bakery"
       },
       {
         "name": "Dino’s Steak and Claw House",
         "address": "342 S Main St, Grapevine, TX 76051",
         "phone": "(817) 488-3100",
         "website": "http://dinossteakandclaw.net/",
-        "imageurl": "steak.jpg"
+        "imageurl": "steak.jpg",
+        "alternate": "Picture of Dino’s Steak House"
       },
       {
         "name": "Kilwins Grapevine",
         "address": "338 S Main St, Grapevine, TX 76051",
         "phone": "(817) 527-7676",
         "website": "https://www.kilwins.com/stores/kilwins-grapevine",
-        "imageurl": "kilwins.jpg"
+        "imageurl": "kilwins.jpg",
+        "alternate": "Picture of Kilwins Grapevine"
       },
       {
         "name": "Napolis Italian Kitchen & Market",
         "address": "309 S Main St, Grapevine, TX 76051",
         "phone": "(817) 310-0385",
         "website": "",
-        "imageurl": "italian.jpg"
+        "imageurl": "italian.jpg",
+        "alternate": "Picture of Napolis Italian Kitchen & Market"
       },
       {
         "name": "Dr Sue's Chocolate",
         "address": "417 S Main St, Grapevine, TX 76051",
         "phone": "(817) 416-7667",
         "website": "http://www.drsueschocolate.com/",
-        "imageurl": "chocolate.jpg"
+        "imageurl": "chocolate.jpg",
+        "alternate": "Picture of Dr Sue's Chocolate"
       }
     ]
   }
