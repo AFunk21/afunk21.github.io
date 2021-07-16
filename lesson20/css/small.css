@@ -9,8 +9,6 @@ body {
     color: #676767;
 }
 
-/* ------------------------------------------------ Home ------------------------------------------------ */
-
 /* -------- Aside Banner -------- */
 
 aside {
@@ -82,11 +80,6 @@ nav li {
 	display: block;
 }
 
-
-
-/* -------- Main -------- */
-
-
 h1 {
     font-size: 2em;
     font-family: 'Noto Serif', sans-serif;
@@ -126,6 +119,66 @@ main {
     min-height: calc(100vh - 476px);
     padding: 25px;
   }
+
+
+/* -------- Footer -------- */
+
+footer {
+    text-align: center;
+    font-family: 'Noto Serif', sans-serif;
+    background-color: #715780;
+    color: #BBB1BD;
+    padding:  15px 0 5px 0;
+    line-height: 1;
+  }
+  
+  .contact-info {
+      display: block;
+  }
+  
+  footer h3 {
+      color: #AABD8C;
+  }
+  
+  .last-updated a {
+      color: #BBB1BD;
+  }
+  
+  .last-updated p {
+      color: #BBB1BD;
+  }
+  
+  footer a {
+      color: #BBB1BD;
+    }
+  
+  footer a:hover {
+      color: #fffff8;
+  }
+  
+  .pre-footer {
+      display: block;
+      justify-content: space-between;
+      background-color: #715780;
+      padding: 10px 20% 10px 20%;
+      line-height: 1;
+  }
+  
+  .pre-footer h3 {
+      color: #AABD8C;
+  }
+  
+  .pre-footer p {
+      color: #BBB1BD;
+  }
+  
+  div a img {
+      width: 50px;
+      opacity: 0.9;
+  }
+
+/* ------------------------------------------------ Home ------------------------------------------------ */
+
 
   /* ------------------- Welcome ------------------ */
 
@@ -201,8 +254,6 @@ button:hover {
     display: block;
     text-align: center;
 }
-
-
 
   /* ------------------- Weekly Highlights ------------------ */
 
@@ -318,88 +369,8 @@ button:hover {
 }
 
 
-
-/* -------- Footer -------- */
-
-footer {
-  text-align: center;
-  font-family: 'Noto Serif', sans-serif;
-  background-color: #715780;
-  color: #BBB1BD;
-  padding:  15px 0 5px 0;
-  line-height: 1;
-}
-
-.contact-info {
-    display: block;
-}
-
-footer h3 {
-    color: #AABD8C;
-}
-
-.last-updated a {
-    color: #BBB1BD;
-}
-
-.last-updated p {
-    color: #BBB1BD;
-}
-
-footer a {
-    color: #BBB1BD;
-  }
-
-footer a:hover {
-    color: #fffff8;
-}
-
-.pre-footer {
-    display: block;
-    justify-content: space-between;
-    background-color: #715780;
-    padding: 10px 20% 10px 20%;
-    line-height: 1;
-}
-
-.pre-footer h3 {
-    color: #AABD8C;
-}
-
-.pre-footer p {
-    color: #BBB1BD;
-}
-
-div a img {
-    width: 50px;
-    opacity: 0.9;
-}
-
-
-
 /* ------------------------------------------------ City ------------------------------------------------ */
 
-
-
-/* -------- Aside Banner -------- */
-
-
-
-
-
-/* -------- Header -------- */
-
-
-
-
-
-/* -------- Navigation Bar -------- */
-
-
-
-
-
-/* -------- Main -------- */
 
 .about-city {
     display: grid;
@@ -447,38 +418,9 @@ div a img {
 
 
 
-
-
-
-/* -------- Footer -------- */
-
-
-
-
-
 /* ------------------------------------------------ Join ------------------------------------------------ */
 
 
-
-/* -------- Aside Banner -------- */
-
-
-
-
-
-/* -------- Header -------- */
-
-
-
-
-
-/* -------- Navigation Bar -------- */
-
-
-
-
-
-/* -------- Main -------- */
 
 #join-format {
     max-width: 500px;
@@ -526,43 +468,10 @@ background-color: #45a049;
 
 
 
-/* -------- Footer -------- */
-
-
-
-
 
 
 /* ------------------------------------------------ Directory ------------------------------------------------ */
 
-
-
-/* -------- Aside Banner -------- */
-
-
-
-
-
-/* -------- Header -------- */
-
-
-
-
-
-/* -------- Navigation Bar -------- */
-
-
-
-
-
-/* -------- Main -------- */
-
-
-
-
-
-
-/* -------- Footer -------- */
 
 
 
@@ -571,31 +480,6 @@ background-color: #45a049;
 
 /* ------------------------------------------------ Contact ------------------------------------------------ */
 
-
-
-/* -------- Aside Banner -------- */
-
-
-
-
-
-/* -------- Header -------- */
-
-
-
-
-
-/* -------- Navigation Bar -------- */
-
-
-
-
-
-/* -------- Main -------- */
-
-/* contact-page {
-    max-width: 960px;
-}*/
 
 iframe {
     width: 100%;
@@ -668,8 +552,6 @@ iframe {
 #image-6:hover {
     box-shadow: 0 0 3rem #777;
 }
-
-/* -------- Footer -------- */
 
 
 
