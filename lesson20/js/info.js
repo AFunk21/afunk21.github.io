@@ -1,39 +1,32 @@
-const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL = "https://https://afunk21.github.io/lesson20/directory.json";
+// text from assingment
+fetch(requestURL) 
+    .then(function (response) {
+    return response.json();
+})
+// text from assingment
+.then(function (jsonObject) {
+console.table(jsonObject);
 
-fetch(requestURL)
-    .then(function(response) {
-        return response.json();
-    })
-    .then(function(jsonObject) {
-        const towns = jsonObject["towns"];
+const business = jsonObject['business'];
 
-        const three = towns.filter((town) => town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
+for (let i = 0; i < business.length; i++ ) {
+        let card = document.createElement("section");
+        let h2 = document.createElement("h2");
+        let address = document.createElement("p");
+        let phone = document.createElement("p");
+        let image = document.createElement("img");
 
-        three.forEach((town) => {
-            let card = document.createElement("section");
-            let h2 = document.createElement("h2");
-            let motto = document.createElement("p");
-            let year = document.createElement("p");
-            let population = document.createElement("p");
-            let rain = document.createElement("p");
-            let image = document.createElement("img");
-            let box = document.createElement("div");
+        h2.textContent = business[i].name + ' ' + business[i].name; // text from assingment
+        birthDate.textContent = 'Address: ' + business[i].address ; // using same format from assingment
+        birthPlace.textContent = 'Phone: ' + business[i].phone; // using same format from assingment
+        img.setAttribute('src', business[i].imageurl, ); // text from assingment
 
-            h2.textContent = town.name;
-            motto.textContent = `"${town.motto}"`;
-            year.textContent = `Year Founded: ${town.yearFounded}`;
-            population.textContent = `Population: ${town.currentPopulation}`;
-            rain.textContent = `Annual Rain Fall: ${town.averageRainfall}`;
-            image.setAttribute("src", `images/${town.photo}`);
-            image.setAttribute("alt", `A landscape picture of ${town.name}!`);
+        card.appendChild(image);
+        card.appendChild(h2);
+        card.appendChild(address);
+        card.appendChild(phone);
 
-            card.appendChild(h2);
-            card.appendChild(motto);
-            card.appendChild(year);
-            card.appendChild(population);
-            card.appendChild(rain);
-            card.appendChild(image);
-
-            document.querySelector("div.towns").appendChild(card);
-        });
+            document.querySelector("div.cards").appendChild(card);
+        }
     });
