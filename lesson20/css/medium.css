@@ -219,9 +219,10 @@
     .contact-form {
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: center;
     }
     
-    .map {
+   iframe {
         grid-column: 1;
         grid-row: 2;
     }
