@@ -1,4 +1,4 @@
-const requestURL = "https://https://afunk21.github.io/lesson20/directory.json";
+const requestURL = "https://afunk21.github.io/lesson20/directory.json";
 // text from assingment
 fetch(requestURL) 
     .then(function (response) {
