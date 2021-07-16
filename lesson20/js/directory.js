@@ -1,6 +1,5 @@
-const requestURL = "https://afunk21.github.io/lesson20/directory.json";
-// text from assingment
-fetch(requestURL) 
+
+fetch(("./directory.json")) 
     .then(function (response) {
     return response.json();
 })
@@ -17,16 +16,16 @@ for (let i = 0; i < business.length; i++ ) {
         let phone = document.createElement("p");
         let image = document.createElement("img");
 
-        h2.textContent = business[i].name + ' ' + business[i].name; // text from assingment
-        birthDate.textContent = 'Address: ' + business[i].address ; // using same format from assingment
-        birthPlace.textContent = 'Phone: ' + business[i].phone; // using same format from assingment
-        img.setAttribute('src', business[i].imageurl, ); // text from assingment
+        h2.textContent = business[i].name + ' ' + business[i].name; 
+        address.textContent = 'Address: ' + business[i].address ; 
+        phone.textContent = 'Phone: ' + business[i].phone; 
+        img.setAttribute('src', business[i].imageurl, ); 
 
         card.appendChild(image);
         card.appendChild(h2);
         card.appendChild(address);
         card.appendChild(phone);
 
-            document.querySelector("div.cards").appendChild(card);
-        }
-    });
+        document.querySelector("div.cards").appendChild(card);
+    }
+});
