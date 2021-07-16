@@ -396,6 +396,12 @@ footer a:hover {
 
 /* -------- Main -------- */
 
+.about-city {
+    display: flex;
+}
+.about-city p{
+    line-height: 1.6em;
+}
 
 
 
