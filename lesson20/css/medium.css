@@ -1,120 +1,81 @@
 @media only screen and (min-width: 45em) {
     
+        /* -------- Header -------- */
+    
+        header {
+            width: auto;
+        }
+
+        /* -------- Navigation Bar -------- */
+
+        .navigation {
+            display: flex;
+        }
+
+        nav ul {
+            display: flex;
+        }
+        nav ul li { 
+            flex: 1 1 100%; 
+        }
+    
+        nav li {
+            display: block; /* needed because of state in small view */
+            flex: 1 1 100%;
+        }
+
+        nav li:first-child {
+            display: none;
+        }
+
+        nav .current-page {
+            background-color: #AABD8C;
+            color: #5D6F34;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+    
+        h2{
+            font-size: 1.5em;
+        }
+    
+    
+        /* -------- Footer -------- */
+    
+        footer {
+            width: auto;
+        }
+    
+        .bottom-info {
+            width: auto;
+            display: grid;
+            grid-template-columns: 1fr 100px 1fr;
+            padding: 50px;
+        }
+        
+        .contact-info {
+            text-align: left;
+            grid-column: 3;
+            grid-row: 1;
+        }
+    
+        .pre-footer {
+            display: flex;
+        }
+
     /* ------------------------------------------------ Home ------------------------------------------------ */
 
 
-
-    /* -------- Aside Banner -------- */
-
-
-
-
-
-    /* -------- Header -------- */
-    
-    header {
-        width: auto;
-      }
-
-
-
-
-    /* -------- Navigation Bar -------- */
-
-    .navigation {
-        display: flex;
-    }
-
-    nav ul {
-        display: flex;
-    }
-    nav ul li { 
-        flex: 1 1 100%; 
-    }
  
-	nav li {
-		display: block; /* needed because of state in small view */
-		flex: 1 1 100%;
-	}
-
-	nav li:first-child {
-		display: none;
-	}
-
-    nav .current-page {
-        background-color: #AABD8C;
-        color: #5D6F34;
-    }
 
 
-
-    /* -------- Main -------- */
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2{
-        font-size: 1.5em;
-    }
-
-
-
-
-    /* -------- Footer -------- */
-
-    footer {
-        width: auto;
-    }
-
-    .bottom-info {
-        width: auto;
-        display: grid;
-        grid-template-columns: 1fr 100px 1fr;
-        padding: 50px;
-    }
-    
-    .contact-info {
-        text-align: left;
-        grid-column: 3;
-        grid-row: 1;
-    }
-
-    .pre-footer {
-        display: flex;
-    }
 
 
     /* ------------------------------------------------ City ------------------------------------------------ */
 
 
-
-    /* -------- Aside Banner -------- */
-
-
-
-
-
-    /* -------- Header -------- */
-
-
-
-
-
-    /* -------- Navigation Bar -------- */
-
-
-
-
-
-    /* -------- Main -------- */
-
-
-
-
-
-
-    /* -------- Footer -------- */
 
 
 
@@ -122,34 +83,6 @@
 
     /* ------------------------------------------------ Join ------------------------------------------------ */
 
-
-
-    /* -------- Aside Banner -------- */
-
-
-
-
-
-    /* -------- Header -------- */
-
-
-
-
-
-    /* -------- Navigation Bar -------- */
-
-
-
-
-
-    /* -------- Main -------- */
-
-
-
-
-
-
-    /* -------- Footer -------- */
 
 
 
@@ -160,61 +93,11 @@
 
 
 
-    /* -------- Aside Banner -------- */
-
-
-
-
-
-    /* -------- Header -------- */
-
-
-
-
-
-    /* -------- Navigation Bar -------- */
-
-
-
-
-
-    /* -------- Main -------- */
-
-
-
-
-
-
-    /* -------- Footer -------- */
-
-
 
 
 
 
     /* ------------------------------------------------ Contact ------------------------------------------------ */
-
-
-
-    /* -------- Aside Banner -------- */
-
-
-
-
-
-    /* -------- Header -------- */
-
-
-
-
-
-    /* -------- Navigation Bar -------- */
-
-
-
-
-
-    /* -------- Main -------- */
 
     .contact-form {
         display: grid;
@@ -231,14 +114,5 @@
         grid-column: 1;
         grid-row: 1;
     }
-
-
-
-
-
-    /* -------- Footer -------- */
-
-
-
 
 }
