@@ -486,6 +486,7 @@ background-color: #45a049;
 .cards {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
     padding-left: 20px;
 }
 
@@ -495,19 +496,22 @@ background-color: #45a049;
     border-radius: 10px;
     padding: 5px;
     margin: 15px;
-    width: 250px;
+    width: 300px;
+    word-wrap: break-word;
 }
 
 .cards section:hover {
     box-shadow: 0 0 3rem #777;
 }
 
-.cards section h2:hover {
+.cards section a:hover {
     color: orange;
 }
 
 .cards section img {
     border-radius: 10px;
+    max-width: 200px;
+    min-height: 150px;
     margin-top: 5px;
 }
 

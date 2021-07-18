@@ -5,7 +5,7 @@
         "address": "636 S Main St, Grapevine, TX 76051",
         "phone": "(800) 457-6338",
         "website": "http://www.grapevinetexasusa.com/",
-        "imageurl": "headquarters.jpg",
+        "imageurl": "https://www.grapevinetexasusa.com/includes/public/assets/images/logos/footer-logo.png",
         "alternate": "Picture of Grapevine Convention Center"
       },
       {
@@ -13,31 +13,31 @@
         "address": "337 S Main St, Grapevine, TX 76051",
         "phone": "(817) 488-7656",
         "website": "https://www.grapevinesmarketonmain.com/",
-        "imageurl": "market-on-main.jpg",
+        "imageurl": "https://static.wixstatic.com/media/a89a24_71ad7c89acba4324b4ad7734458bcb74~mv2_d_1800_1800_s_2.png/v1/fill/w_576,h_468,al_c,q_85,usm_0.66_1.00_0.01/Black%20Logo%20With%20Background.webp",
         "alternate": "Picture of Grapevine Market On Main"
-      },
-      {
-        "name": "Ashlins Ltd",
-        "address": "413 S Main St, Grapevine, TX 76051",
-        "phone": "(817) 442-0400",
-        "website": "http://www.ashlins.com/",
-        "imageurl": "ashlins.jpg",
-        "alternate": "Picture of Ashlins Ltd"
       },
       {
         "name": "Good Things For All Seasons",
         "address": "334 S Main St, Grapevine, TX 76051",
         "phone": "(817) 251-3673",
         "website": "http://www.goodthingsforallseasons.com/",
-        "imageurl": ".jpg",
+        "imageurl": "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/126912250_10159391824204274_6201197977139871358_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=2tR6QM2oETwAX-bXUrH&_nc_ht=scontent-dfw5-1.xx&oh=55c9a5a16ab8dc58fdf42f0fd32fde20&oe=60F8AC14",
         "alternate": "Picture of Good Things For All Seasons"
+      },
+      {
+        "name": "Ashlins Ltd",
+        "address": "413 S Main St, Grapevine, TX 76051",
+        "phone": "(817) 442-0400",
+        "website": "http://www.ashlins.com/",
+        "imageurl": "https://cdn.shopify.com/s/files/1/0889/5322/files/logo_540x.png?v=1590182296",
+        "alternate": "Picture of Ashlins Ltd"
       },
       {
         "name": "A Hole In The Wall",
         "address": "419 S Main St, Grapevine, TX 76051",
         "phone": "(817) 421-8999",
         "website": "https://m.facebook.com/Hole-in-the-Wall-Gift-Store-1144948172222149/?ref=page_internal&mt_nav=0",
-        "imageurl": ".jpg",
+        "imageurl": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-0/cp0/e15/q65/s168x128/56993990_2475094315874188_3347552060882026496_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=85a577&_nc_ohc=rNZix1k1cnoAX93ap2K&_nc_ht=scontent-dfw5-2.xx&oh=d4e5dc87e934a67de1dd4cd7ff746e0f&oe=60F7B553",
         "alternate": "Picture of A Hole In The Wall"
       },
       {
@@ -45,7 +45,7 @@
         "address": "300 S Main St, Grapevine, TX 76051",
         "phone": "(817) 410-3100",
         "website": "http://www.palace-theatre.com/",
-        "imageurl": "art-center.jpg",
+        "imageurl": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.18169-9/14095740_1089563441079592_9204610839429059605_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=S0Tlpj4zt6kAX9tqwMh&_nc_ht=scontent-dfw5-2.xx&oh=bda5612e658cdc84326e4d3662d3b887&oe=60F7F3C9",
         "alternate": "Picture of Palace Arts Center"
       },
       {
@@ -53,7 +53,7 @@
         "address": "423 S Main St, Grapevine, TX 76051",
         "phone": "(817) 421-4888",
         "website": "http://www.tolbertsrestaurant.com/",
-        "imageurl": "tolberts.jpg",
+        "imageurl": "https://www.tolbertsrestaurant.com/wp-content/uploads/2017/03/logoblack.png",
         "alternate": "Picture of Tolbert's Restaurant"
       },
       {
@@ -61,15 +61,15 @@
         "address": "316 S Main St, Grapevine, TX 76051",
         "phone": "(817) 424-4333",
         "website": "http://www.themainbakery.com/",
-        "imageurl": "bistro.jpg",
+        "imageurl": "https://themainbakery.com/images/logo_small.png",
         "alternate": "Picture of Main Street Bistro & Bakery"
       },
       {
         "name": "Dino’s Steak and Claw House",
         "address": "342 S Main St, Grapevine, TX 76051",
         "phone": "(817) 488-3100",
-        "website": "a href=http://dinossteakandclaw.net/",
-        "imageurl": "steak.jpg",
+        "website": "http://dinossteakandclaw.net/",
+        "imageurl": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/66624750_10156876911594902_4449429768961523712_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=EOW7O1dKcyoAX8gNJ_q&_nc_ht=scontent-dfw5-2.xx&oh=8995dab98794faebe8c9985eda83b355&oe=60F7F3BE",
         "alternate": "Picture of Dino’s Steak House"
       },
       {
@@ -77,15 +77,15 @@
         "address": "338 S Main St, Grapevine, TX 76051",
         "phone": "(817) 527-7676",
         "website": "https://www.kilwins.com/stores/kilwins-grapevine",
-        "imageurl": "kilwins.jpg",
+        "imageurl": "https://www.kilwins.com/sites/all/themes/kilwins_zen/logo.png",
         "alternate": "Picture of Kilwins Grapevine"
       },
       {
         "name": "Napolis Italian Kitchen & Market",
         "address": "309 S Main St, Grapevine, TX 76051",
         "phone": "(817) 310-0385",
-        "website": "",
-        "imageurl": "italian.jpg",
+        "website": "http://www.napolisgrapevine.com/",
+        "imageurl": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/122528701_10157990703447568_4825953058001967804_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=6e5ad9&_nc_ohc=7AcAux_Z48YAX-BEKxp&_nc_ht=scontent-dfw5-2.xx&oh=e65083707569cc26cc3c2ba92f827080&oe=60F80578",
         "alternate": "Picture of Napolis Italian Kitchen & Market"
       },
       {
@@ -93,7 +93,7 @@
         "address": "417 S Main St, Grapevine, TX 76051",
         "phone": "(817) 416-7667",
         "website": "http://www.drsueschocolate.com/",
-        "imageurl": "chocolate.jpg",
+        "imageurl": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/200930615_10158005636516674_3319681698928290991_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=973b4a&_nc_ohc=zTLgMhvU70cAX-zmOHF&_nc_ht=scontent-dfw5-2.xx&oh=c33c87e1bc725fc3b5ad40d4fd0790b5&oe=60F7A3E1",
         "alternate": "Picture of Dr Sue's Chocolate"
       }
     ]
