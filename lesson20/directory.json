@@ -68,7 +68,7 @@
         "name": "Dino’s Steak and Claw House",
         "address": "342 S Main St, Grapevine, TX 76051",
         "phone": "(817) 488-3100",
-        "website": "http://dinossteakandclaw.net/",
+        "website": "a href=http://dinossteakandclaw.net/",
         "imageurl": "steak.jpg",
         "alternate": "Picture of Dino’s Steak House"
       },
