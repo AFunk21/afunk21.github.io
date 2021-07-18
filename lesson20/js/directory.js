@@ -12,17 +12,21 @@ const business = jsonObject['business'];
 for (let i = 0; i < business.length; i++ ) {
         let card = document.createElement("section");
         let h2 = document.createElement("h2");
+        let website = document.createElement("a")
         let address = document.createElement("p");
         let phone = document.createElement("p");
-        let image = document.createElement("img");
+        let img = document.createElement("img");
 
-        h2.textContent = business[i].name; 
+
+        h2.textContent = business[i].name;
+        website.textContent = business[i].website;
         address.textContent = business[i].address; 
         phone.textContent = business[i].phone; 
-        image.setAttribute("src", `images/${business.photo}`);
-        image.setAttribute("alt", `${business.alternate}!`);
+        img.setAttribute("src", 'images/' + business[i].imageurl);
+        img.setAttribute("alt", business[i].alternate);
+        //img.setAttribute("href", `${business.website}!`);
 
-        card.appendChild(image);
+        card.appendChild(img);
         card.appendChild(h2);
         card.appendChild(address);
         card.appendChild(phone);
@@ -30,3 +34,7 @@ for (let i = 0; i < business.length; i++ ) {
         document.querySelector("div.cards").appendChild(card);
     }
 });
+
+//card.append(`<a href="` + website + `" >` + h2 + `</a>`);
+//card.append('<a href=' + website + '" >' + h2 + '</a>');
+//business[i].link + ' ' + 
