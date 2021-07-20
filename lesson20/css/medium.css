@@ -102,6 +102,20 @@
         margin-top: 40px;
     }
 
+    .event-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .event-grid p {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    
+    .event-grid img {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
 
     /* ------------------------------------------------ City ------------------------------------------------ */
 
