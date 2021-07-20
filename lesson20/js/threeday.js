@@ -2,7 +2,7 @@
 //weather api activity - website
 // const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial";
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial";";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial";
 
 
  // I pretty much followed along with Bro. Blazard to complete this in the weekly assignment video.
