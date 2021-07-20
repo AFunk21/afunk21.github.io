@@ -1,5 +1,3 @@
-// combined my windchill and api together from the windchill assignment, week 6.
-// const cityid = "5604473"
 // const APPID = "7cdd4c49d24edd9b9fc476ef7cdd7ff4" 
 // const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=7cdd4c49d24edd9b9fc476ef7cdd7ff4&units=imperial";
 
