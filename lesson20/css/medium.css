@@ -89,6 +89,18 @@
         margin-top: 25px;
     }
 
+    .highlight-content {
+        padding: 0;
+    }
+
+    .slider-img {
+        width: 400px;
+        margin-left: 25%;
+    }
+
+    .prev, .next {
+        margin-top: 40px;
+    }
 
 
     /* ------------------------------------------------ City ------------------------------------------------ */
