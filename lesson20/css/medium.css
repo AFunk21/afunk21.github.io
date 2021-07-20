@@ -68,8 +68,26 @@
     /* ------------------------------------------------ Home ------------------------------------------------ */
 
 
- 
+    .intro {
+        grid-template-columns: 1fr;
+    }
+    
+    #welcome {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    button {
+        width: 100%;
+        border-radius: 10px;
+        grid-column: 1;
+        grid-row: 2;
+    }
 
+    #weather-forcast {
+        grid-column: 1;
+        margin-top: 25px;
+    }
 
 
 
