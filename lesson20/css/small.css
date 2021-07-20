@@ -225,7 +225,7 @@ button:hover {
 #weather-forcast {
     background-color: lightgrey;
     border-radius: 10px;
-    padding: 10px;
+    padding-bottom: 15px;
     grid-column: 1;
     grid-row: 3;
     color: #5D6F34;
@@ -236,12 +236,14 @@ button:hover {
 
 .summary-format {
     line-height: 0.4em;
+    text-align: center;
 }
 
 .forecast-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 25px;
 }
 
 .days1 {
