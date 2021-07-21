@@ -196,7 +196,7 @@ footer {
 #welcome {
     grid-column: 1;
     grid-row: 1;
-    padding-top: -10px;
+    margin-top: -10px;
     line-height: 1.5em;
 }
 
