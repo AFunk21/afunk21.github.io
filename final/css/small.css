@@ -200,7 +200,7 @@ footer {
     line-height: 1.5em;
 }
 
-button {
+.button {
     border: 3px solid #596e28;
     text-align: center;
     text-decoration: none;
@@ -217,10 +217,10 @@ button {
 
 }
 
-button a {
+.button a {
     color: white;
 }
-button:hover {
+.button:hover {
     background-color: orange;
     border: 3px solid orange;
 }

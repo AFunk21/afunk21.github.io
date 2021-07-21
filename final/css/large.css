@@ -14,7 +14,7 @@
         grid-gap: 5px;
     }
     
-    button {
+    .button {
         text-align: center;
         text-decoration: none;
         cursor: pointer;
@@ -30,10 +30,10 @@
     
     }
     
-    button a {
+    .button a {
         color: white;
     }
-    button:hover {
+    .button:hover {
         background-color: orange;
     }
     
