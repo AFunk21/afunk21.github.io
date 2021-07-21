@@ -38,7 +38,6 @@
     }
     
     #weather-forcast {
-        background-color: lightgrey;
         border-radius: 10px;
         padding: 10px;
         grid-column: 6/8;
